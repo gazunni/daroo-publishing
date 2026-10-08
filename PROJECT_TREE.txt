@@ -10,6 +10,8 @@ public/_headers
 public/assets/images/chamber-storyboard.webp
 public/assets/images/daroo-approved-logo.webp
 public/assets/images/daroo-emblem.webp
+public/assets/images/daroo-hero-landscape-v037.webp
+public/assets/images/daroo-hero-portrait-v037.webp
 public/assets/images/daroo-home-icon.png
 public/assets/images/daroo-icon-192.png
 public/assets/images/daroo-icon-512.png

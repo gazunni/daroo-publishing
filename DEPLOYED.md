@@ -26,3 +26,6 @@ Main page spacing tightened; storyboard replaced with cropped clean portion of g
 
 ## v0.3.6 — Responsive landing hero repair (2026-10-08)
 Merged hero copy and artwork into one layered responsive section, preventing separate black text block and excessive portrait crop. Preserved site header, reader, bottom nav and other pages. Package prepared; deployment not verified.
+
+## v0.3.7 (prepared, not deployed)
+Clean responsive landing hero artwork, 2 assets; version and release notes updated.

@@ -82,3 +82,6 @@ See SECURITY_REVIEW_v033.md.
 
 ## v0.3.6 — Responsive landing hero repair (2026-10-08)
 Merged hero copy and artwork into one layered responsive section, preventing separate black text block and excessive portrait crop. Preserved site header, reader, bottom nav and other pages. Package prepared; deployment not verified.
+
+## v0.3.7 — Hero image composition correction (2026-10-08)
+Replaced cropped mockup-derived hero art with clean artwork in separate landscape and portrait WebP assets. Existing HTML header and fixed navigation remain; responsive artwork uses `<picture>` and one overlaid HTML copy layer. Package prepared; live layout review pending.

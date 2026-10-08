@@ -1,7 +1,7 @@
 {
   "app": "DaRoo",
-  "version": "0.3.6",
-  "release": "v035",
-  "previous_version": "0.3.4",
-  "notes": "Compact landing hero spacing and replace obsolete storyboard with clean adventure illustration"
+  "version": "0.3.7",
+  "release": "v037",
+  "previous_version": "0.3.6",
+  "notes": "Clean responsive hero art for portrait and landscape; preserve header/footer and avoid embedded UI text"
 }
