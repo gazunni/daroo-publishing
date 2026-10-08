@@ -1,7 +1,7 @@
 {
   "app": "DaRoo",
-  "version": "0.3.9",
-  "release": "v039",
-  "previous_version": "0.3.8",
-  "notes": "Clean cropped original artwork asset, responsive independent text and artwork layout"
+  "version": "0.4.0",
+  "release": "v040",
+  "previous_version": "0.3.9",
+  "notes": "Catalog-first navigation: remove direct reader links from main hero and site headers; keep story-specific reader entry"
 }

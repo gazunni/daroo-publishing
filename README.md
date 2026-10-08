@@ -93,3 +93,11 @@ Removed background-style cover cropping; artwork is a normal proportional image.
 - Replaced hero image with new independent clean artwork region; generated interface text is excluded.
 - Responsive split layout on landscape, stacked contained image on portrait.
 - Updated visible version on all pages.
+
+## v0.4.0 — Catalog-first navigation
+- Removed the landing-page “Enter the reader” shortcut. “Discover the first story” continues to open Stories.
+- Removed the global “Open reader” header shortcut from Main, Stories, Imprint and Disclaimers.
+- Reader entry remains attached to the Gabe & Jinx story on Stories, so future books can each link to their own reader.
+- Retained hero artwork, responsive layout, navigation, reader implementation, and five book pages.
+- Updated visible footer version across all five HTML pages and `public/version.json`.
+- `.env.example` unchanged. No file deletions needed.

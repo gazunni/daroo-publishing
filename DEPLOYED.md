@@ -35,3 +35,6 @@ Main page contained hero layout; no artwork changes.
 
 ## v0.3.9 (package prepared; deployment pending)
 Clean hero artwork and responsive landing page.
+
+## v0.4.0 (package prepared; not deployed)
+Catalog-first navigation; removed global reader shortcuts. Live deployment unverified.
