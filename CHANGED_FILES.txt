@@ -1,15 +1,13 @@
-DaRoo v0.2.0 — changed/new files
-README.md
-DEPLOYED.md
-deploy.info
+DaRoo v0.2.1 changed/new files
 public/index.html
 public/reader.html
 public/assets/style.css
 public/assets/reader.js
+public/assets/images/daroo-approved-logo.webp
 public/books/gabe-and-jinx/book-01/manifest.json
-public/assets/images/daroo-emblem.webp
-public/assets/images/morocco-storyboard.webp
-public/assets/images/chamber-storyboard.webp
-public/assets/images/expedition-reference.webp
-
-.env.example unchanged.
+README.md
+DEPLOYED.md
+CHANGED_FILES.txt
+PROJECT_TREE.txt
+deploy.info
+.env.example unchanged

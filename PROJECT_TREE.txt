@@ -6,6 +6,7 @@ README.md
 deploy.info
 public/_headers
 public/assets/images/chamber-storyboard.webp
+public/assets/images/daroo-approved-logo.webp
 public/assets/images/daroo-emblem.webp
 public/assets/images/expedition-reference.webp
 public/assets/images/morocco-storyboard.webp

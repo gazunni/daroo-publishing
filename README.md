@@ -15,3 +15,11 @@ Responsive image-first reader with swipe, arrows, slider, fullscreen, fit-width,
 
 ## Versioning
 Full ZIP = entire repository. Changed ZIP = changed/new files only; no deletions in this release. Both have a single wrapper directory. `.env.example` unchanged.
+
+
+## v0.2.1 Reader and branding
+- Approved DaRoo logo supplied by publisher (not regenerated).
+- One image per reader step, portrait-first; optional two-image spread at >=900px.
+- Pointer-based pinch zoom, double-tap, zoom controls (100%-400%), pan while zoomed, swipe only at 100%.
+- Development image assets are still contact sheets. Replace with individual full-resolution page files in the book manifest as artwork is finalized.
+- iPad Safari fullscreen availability varies; browser zoom gestures are handled within reader stage.
