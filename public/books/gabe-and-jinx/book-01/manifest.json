@@ -8,28 +8,24 @@
   "pages": [
     {
       "number": 1,
-      "title": "The beginning",
-      "description": "Marrakech, 4:17 PM. An ordinary afternoon takes an unexpected turn."
+      "title": "Marrakech",
+      "image": "/assets/images/morocco-storyboard.webp",
+      "alt": "Early illustrated storyboard exploration of Marrakech and the market chase",
+      "caption": "DEVELOPMENT STORYBOARD \u00b7 NOT FINAL ART"
     },
     {
       "number": 2,
-      "title": "An unlikely encounter",
-      "description": "Gabe meets Jinx. Neither is impressed."
+      "title": "The impossible photograph",
+      "image": "/assets/images/expedition-reference.webp",
+      "alt": "Archival expedition photograph concept with annotations",
+      "caption": "EXPEDITION PHOTOGRAPH \u00b7 DEVELOPMENT REFERENCE"
     },
     {
       "number": 3,
-      "title": "The photograph",
-      "description": "An expedition photograph from 1926 raises impossible questions."
-    },
-    {
-      "number": 4,
-      "title": "The journey",
-      "description": "The Atlas Mountains hold more than a forgotten excavation."
-    },
-    {
-      "number": 5,
-      "title": "The discovery",
-      "description": "Some things are visible before they are understood."
+      "title": "The buried mystery",
+      "image": "/assets/images/chamber-storyboard.webp",
+      "alt": "Storyboard concept panels for the chamber discovery",
+      "caption": "CHAMBER SEQUENCE \u00b7 STORYBOARD CONCEPT"
     }
   ]
 }

@@ -1,12 +1,8 @@
-# Deployment status
+# DaRoo deployment notes
 
-Version: v0.1.0
-Status: **PACKAGE READY — NOT DEPLOYED**
-Target domain: daroo.generify.ca
-GitHub repo proposed: daroo-publishing
-Cloudflare Pages project proposed: daroo-publishing
-Production branch: main
-Build command: exit 0
-Output directory: public
+Version: 0.2.0
+Domain: https://daroo.generify.ca
+Target: GitHub `daroo-publishing` main → Cloudflare Pages
+Status: package prepared; **not deployed by ChatGPT**.
 
-No live GitHub repository, Cloudflare Pages deployment, or DNS change has been performed by this package.
+Updates: immersive homepage, illustrated story showcase, artwork preview, reader UI and controls, manifest, documentation.

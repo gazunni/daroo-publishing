@@ -1,16 +1,15 @@
-Initial release — all files new:
-.env.example
-CHANGED_FILES.txt
-DEPLOYED.md
-PROJECT_TREE.txt
+DaRoo v0.2.0 — changed/new files
 README.md
+DEPLOYED.md
 deploy.info
-public/_headers
-public/assets/reader.js
-public/assets/site.js
-public/assets/style.css
-public/books/gabe-and-jinx/book-01/manifest.json
 public/index.html
 public/reader.html
-public/robots.txt
-public/sitemap.xml
+public/assets/style.css
+public/assets/reader.js
+public/books/gabe-and-jinx/book-01/manifest.json
+public/assets/images/daroo-emblem.webp
+public/assets/images/morocco-storyboard.webp
+public/assets/images/chamber-storyboard.webp
+public/assets/images/expedition-reference.webp
+
+.env.example unchanged.

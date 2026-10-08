@@ -1,16 +1,19 @@
-DaRoo_v010/
-  .env.example
-  CHANGED_FILES.txt
-  DEPLOYED.md
-  PROJECT_TREE.txt
-  README.md
-  deploy.info
-  public/_headers
-  public/assets/reader.js
-  public/assets/site.js
-  public/assets/style.css
-  public/books/gabe-and-jinx/book-01/manifest.json
-  public/index.html
-  public/reader.html
-  public/robots.txt
-  public/sitemap.xml
+.env.example
+CHANGED_FILES.txt
+DEPLOYED.md
+PROJECT_TREE.txt
+README.md
+deploy.info
+public/_headers
+public/assets/images/chamber-storyboard.webp
+public/assets/images/daroo-emblem.webp
+public/assets/images/expedition-reference.webp
+public/assets/images/morocco-storyboard.webp
+public/assets/reader.js
+public/assets/site.js
+public/assets/style.css
+public/books/gabe-and-jinx/book-01/manifest.json
+public/index.html
+public/reader.html
+public/robots.txt
+public/sitemap.xml
