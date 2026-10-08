@@ -121,3 +121,15 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
 .page-main .hero-copy .micro{padding-top:0;margin-top:20px}
 @media(max-width:900px){.page-main .hero-art{height:calc(100dvh - 155px);min-height:620px;max-height:1100px}.page-main .hero-art img{object-fit:cover;object-position:50% 48%}.page-main .hero-art:after{background:linear-gradient(180deg,rgba(7,13,17,.95) 0%,rgba(7,13,17,.85) 23%,rgba(7,13,17,.25) 48%,transparent 76%)}.page-main .hero-copy{align-self:start;max-width:100%;padding:24px 6vw}}
 @media(max-width:600px){.page-main .hero-art{height:calc(100dvh - 145px);min-height:600px;max-height:980px}.page-main .hero-art img{object-position:50% 40%}.page-main .hero-copy{padding:18px 20px}.page-main .hero-copy h1{font-size:clamp(35px,9vw,52px)}}
+
+/* v0.3.8: actual contained illustration, never cover-crop. */
+.page-main .hero{display:grid!important;grid-template-columns:minmax(0,42%) minmax(0,58%)!important;align-items:center!important;overflow:visible!important;min-height:0!important;max-width:1800px!important;background:#0b1216!important}
+.page-main .hero-copy{grid-area:1/1!important;position:relative!important;align-self:center!important;max-width:none!important;padding:clamp(20px,3.5vw,58px) clamp(18px,3.6vw,60px)!important;pointer-events:auto!important;z-index:2!important}
+.page-main .hero-art{grid-area:1/2!important;position:relative!important;display:block!important;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;overflow:visible!important;background:transparent!important}
+.page-main .hero-art picture{display:block!important;width:100%!important;height:auto!important}
+.page-main .hero-art img{display:block!important;position:static!important;width:100%!important;height:auto!important;max-height:calc(100dvh - 180px)!important;object-fit:contain!important;object-position:center!important;filter:none!important}
+.page-main .hero-art:after{display:none!important}
+.page-main .art-label{left:12px!important;bottom:12px!important}
+.page-main .hero-copy h1{font-size:clamp(38px,4.5vw,74px)!important}
+@media(max-width:900px){.page-main .hero{grid-template-columns:minmax(0,1fr)!important}.page-main .hero-copy{grid-area:1/1!important;align-self:auto!important;padding:20px 6vw 12px!important}.page-main .hero-art{grid-area:2/1!important;width:100%!important}.page-main .hero-art img{max-height:none!important;width:100%!important;height:auto!important;object-fit:contain!important}.page-main .hero-copy h1{font-size:clamp(38px,6vw,62px)!important}.page-main .hero-copy .micro{margin-top:16px!important}}
+@media(max-width:600px){.page-main .hero-copy{padding:15px 20px 12px!important}.page-main .hero-copy h1{font-size:clamp(35px,9vw,50px)!important}.page-main .hero-actions{margin-top:12px!important}.page-main .hero-art img{max-height:none!important}}

@@ -1,14 +1,12 @@
-DaRoo v0.3.7 changed files
-public/index.html
+DaRoo v0.3.8
 public/assets/style.css
-public/assets/images/daroo-hero-portrait-v037.webp
-public/assets/images/daroo-hero-landscape-v037.webp
 public/version.json
 README.md
 DEPLOYED.md
-public/imprint.html
-public/reader.html
-public/stories.html
-public/disclaimers.html
 CHANGED_FILES.txt
 PROJECT_TREE.txt
+public/imprint.html
+public/reader.html
+public/index.html
+public/stories.html
+public/disclaimers.html

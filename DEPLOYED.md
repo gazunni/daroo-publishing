@@ -29,3 +29,6 @@ Merged hero copy and artwork into one layered responsive section, preventing sep
 
 ## v0.3.7 (prepared, not deployed)
 Clean responsive landing hero artwork, 2 assets; version and release notes updated.
+
+## v0.3.8 — Package prepared, not deployed
+Main page contained hero layout; no artwork changes.

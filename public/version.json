@@ -1,7 +1,7 @@
 {
   "app": "DaRoo",
-  "version": "0.3.7",
-  "release": "v037",
-  "previous_version": "0.3.6",
-  "notes": "Clean responsive hero art for portrait and landscape; preserve header/footer and avoid embedded UI text"
+  "version": "0.3.8",
+  "release": "v038",
+  "previous_version": "0.3.7",
+  "notes": "Contained hero image with no object-fit cover; responsive split layout on wide screens and stacked layout on portrait screens"
 }

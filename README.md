@@ -85,3 +85,6 @@ Merged hero copy and artwork into one layered responsive section, preventing sep
 
 ## v0.3.7 — Hero image composition correction (2026-10-08)
 Replaced cropped mockup-derived hero art with clean artwork in separate landscape and portrait WebP assets. Existing HTML header and fixed navigation remain; responsive artwork uses `<picture>` and one overlaid HTML copy layer. Package prepared; live layout review pending.
+
+## v0.3.8 — Contained hero image layout (2026-10-08)
+Removed background-style cover cropping; artwork is a normal proportional image. Wide screens use text and artwork side by side; portrait screens stack text above the entire illustration. Fixed navigation and header preserved. Static checks only; live device review pending.
