@@ -47,3 +47,6 @@ v0.2.6: Fixed detached lettering by baking Page 1 captions into the page artwork
 ## v0.2.7: Multi-page site
 
 Four dedicated routes: `/` (Main), `/stories.html`, `/imprint.html`, `/disclaimers.html`. Fixed bottom navigation across all pages, including the comic reader. Disclaimer text is editorial draft pending rights/legal review before commercial print.
+
+
+v0.2.8: Replace header text wordmark with approved DaRoo logo on all four site pages; show supplied original artwork on Imprint; remove redundant footer above fixed bottom navigation. Reader and book assets unchanged.

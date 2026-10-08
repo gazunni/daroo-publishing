@@ -1,1 +1,1 @@
-v0.2.7 deployment candidate — dedicated site pages and fixed bottom navigation; not deployed by assistant.
+DaRoo v0.2.8 deployment candidate. Header logo, imprint illustration, redundant footer removed. Not deployed by assistant.\n

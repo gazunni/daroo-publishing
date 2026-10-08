@@ -39,3 +39,11 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
 .readerbody{height:100dvh;overflow:hidden}
 .readerbody .reader-main{height:calc(100dvh - 72px - 82px - env(safe-area-inset-bottom,0px))}
 @media(max-width:600px){.bottom-nav a{font-size:11px}.bottom-nav a span:first-child{font-size:18px}.site-page .nav{min-height:64px}.readerbody .reader-main{height:calc(100dvh - 62px - 82px - env(safe-area-inset-bottom,0px))}.site-page .hero{min-height:0}.editorial{padding-top:35px}}
+
+/* v0.2.8 — approved identity in header, original illustration on imprint, no redundant footer */
+.site-page .wordmark{display:flex;align-items:center;justify-content:flex-start;min-width:0}
+.site-page .header-logo{display:block;width:clamp(78px,9vw,122px);height:clamp(65px,7.5vw,100px);object-fit:contain;object-position:left center}
+.site-page .nav{padding-top:8px;padding-bottom:8px}
+.page-imprint .imprint-mark{align-items:flex-start;flex-direction:column;gap:10px}
+.page-imprint .imprint-mark img{width:min(100%,440px);height:auto;max-height:320px;object-fit:contain;object-position:left center;border-radius:5px;background:#f8f8f8}
+@media(max-width:600px){.site-page .header-logo{width:82px;height:66px}.site-page .nav{padding-top:4px;padding-bottom:4px}}

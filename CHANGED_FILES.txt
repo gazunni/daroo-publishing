@@ -1,11 +1,1 @@
-public/index.html
-public/stories.html
-public/imprint.html
-public/disclaimers.html
-public/reader.html
-public/assets/style.css
-README.md
-DEPLOYED.md
-CHANGED_FILES.txt
-PROJECT_TREE.txt
-deploy.info
+public/index.html\npublic/stories.html\npublic/imprint.html\npublic/disclaimers.html\npublic/assets/style.css\npublic/assets/images/daroo-original-artwork.webp\nREADME.md\nDEPLOYED.md\nCHANGED_FILES.txt\nPROJECT_TREE.txt\ndeploy.info\n
