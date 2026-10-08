@@ -36,3 +36,6 @@ Fixed unused variables ignoreClick and old; explicitly qualified window.innerWid
 
 ## v0.2.4 Page 1 lettering preview
 Original screenplay lettering is added as responsive HTML overlay, not burned into the image. Page 1 panel 3 and panel 5 artwork are still not screenplay-accurate; this is a website/lettering preview, not final approved art.
+
+## v0.2.5 Page 1 lettering
+Lettering is rendered as a responsive SVG using artwork coordinates; location moved into open sky, Gabe dialogue to the lower left of panel 2, and courier dialogue to the left of panel 4. The intrusive development caption is removed from the image. No changes to .env.example. Art remains a preview.

@@ -4,14 +4,13 @@
   "title": "Book One \u2014 The Eye of the Desert",
   "subtitle": "Working title \u00b7 In development",
   "status": "development",
-  "edition": "page-01-lettering-layout-preview",
+  "edition": "page-01-lettering-repositioned-v025",
   "pages": [
     {
       "number": 1,
       "title": "The Observer \u2014 Page 1 lettering layout",
       "image": "/assets/images/gabe-jinx-page-01-artwork-preview.webp",
       "alt": "Five-panel Marrakech artwork study: skyline, Gabe filming, street musician, courier, glimpse of Jinx kangaroo red scarf. Panel three is not yet screenplay-accurate.",
-      "caption": "PAGE 1 \u00b7 LETTERING PREVIEW \u00b7 PANEL 3 CAMERA VIEW AND PANEL 5 SCARF REVEAL STILL REQUIRE ART CORRECTION",
       "lettering": "page01"
     },
     {
