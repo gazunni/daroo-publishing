@@ -1,0 +1,17 @@
+{
+  "name": "DaRoo \u2014 A Generify Original",
+  "short_name": "DaRoo",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b1216",
+  "theme_color": "#0b1216",
+  "icons": [
+    {
+      "src": "/assets/images/daroo-home-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

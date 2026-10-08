@@ -47,3 +47,12 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
 .page-imprint .imprint-mark{align-items:flex-start;flex-direction:column;gap:10px}
 .page-imprint .imprint-mark img{width:min(100%,440px);height:auto;max-height:320px;object-fit:contain;object-position:left center;border-radius:5px;background:#f8f8f8}
 @media(max-width:600px){.site-page .header-logo{width:82px;height:66px}.site-page .nav{padding-top:4px;padding-bottom:4px}}
+
+/* v0.2.9: eliminate desktop/tablet vertical centering gap below header. */
+.site-page .imprint,.site-page .story-section{min-height:0;padding-top:clamp(18px,2.2vw,32px);padding-bottom:clamp(28px,4vw,58px)}
+.site-page .imprint{align-content:start;align-items:start}
+.site-page .imprint .eyebrow{margin-top:4px}
+.site-page .imprint h2{margin-top:20px}
+.page-imprint .imprint-mark{margin-top:20px}
+@media(max-width:900px){.site-page .imprint,.site-page .story-section{padding-top:22px;padding-bottom:36px}}
+@media(max-width:600px){.site-page .imprint,.site-page .story-section{padding-top:16px;padding-bottom:28px}}

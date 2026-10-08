@@ -50,3 +50,6 @@ Four dedicated routes: `/` (Main), `/stories.html`, `/imprint.html`, `/disclaime
 
 
 v0.2.8: Replace header text wordmark with approved DaRoo logo on all four site pages; show supplied original artwork on Imprint; remove redundant footer above fixed bottom navigation. Reader and book assets unchanged.
+
+
+v0.2.9: Reduced space between header and content on Imprint and Stories. Added iPad Home Screen standalone web-app metadata, manifest and icon. iPad Safari cannot be programmatically forced into fullscreen; users must use Share > Add to Home Screen > Open as Web App when offered.
