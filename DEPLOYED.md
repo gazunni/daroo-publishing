@@ -1,1 +1,1 @@
-Prepared for deployment, not confirmed live. Five sequential reader pages, edition v027.
+v030 — Five individual Book One page images in the reader; deploy pending.

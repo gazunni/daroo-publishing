@@ -1,18 +1,7 @@
-# Book One — Pages 1–5 reader integration
+# Book One: Five Individual Pages — v030
 
-This build inserts five separate page images into the existing DaRoo reader, replacing the four-item development-preview manifest. It preserves the existing site navigation and reader controls.
+Five separate, full-height page assets are integrated into the Book One reader. Page 5 is complete (no black truncated section). Source artwork was generated as one five-page composition, cropped into individual pages and resampled to 1500 px width. This is **not native-resolution, print-production-ready art**; upscaling does not recover detail. Editorial review and a native high-resolution redraw are still needed before a print-production signoff.
 
-IMPORTANT: The five supplied artwork sources are enlarged storyboard proofs, not independently re-rendered print-resolution masters. This build is a functional website review release, NOT certified print-production artwork. Do not label it publication-ready.
+ZipToGit manual deletions: NONE. Older assets are retained but not used by the manifest.
 
-ZipToGit MANUAL DELETIONS: NONE REQUIRED. Existing old preview assets are left in place and unreferenced; do not delete them until separately authorized.
-
-Changed files:
-- public/assets/images/gabe-jinx-book01-page-01.webp
-- public/assets/images/gabe-jinx-book01-page-02.webp
-- public/assets/images/gabe-jinx-book01-page-03.webp
-- public/assets/images/gabe-jinx-book01-page-04.webp
-- public/assets/images/gabe-jinx-book01-page-05.webp
-- public/books/gabe-and-jinx/book-01/manifest.json
-- public/assets/reader.js
-
-Validation: JSON manifest parse, five referenced images exist, image decoding, JS syntax check.
+.env.example unchanged.
