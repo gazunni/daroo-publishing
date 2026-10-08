@@ -1,12 +1,13 @@
-DaRoo v0.3.8
+v0.3.9 changed files
+public/index.html
 public/assets/style.css
+public/assets/images/daroo-hero-clean-v039.webp
 public/version.json
+public/imprint.html
+public/reader.html
+public/stories.html
+public/disclaimers.html
 README.md
 DEPLOYED.md
 CHANGED_FILES.txt
 PROJECT_TREE.txt
-public/imprint.html
-public/reader.html
-public/index.html
-public/stories.html
-public/disclaimers.html

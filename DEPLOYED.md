@@ -32,3 +32,6 @@ Clean responsive landing hero artwork, 2 assets; version and release notes updat
 
 ## v0.3.8 — Package prepared, not deployed
 Main page contained hero layout; no artwork changes.
+
+## v0.3.9 (package prepared; deployment pending)
+Clean hero artwork and responsive landing page.

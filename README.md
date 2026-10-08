@@ -88,3 +88,8 @@ Replaced cropped mockup-derived hero art with clean artwork in separate landscap
 
 ## v0.3.8 — Contained hero image layout (2026-10-08)
 Removed background-style cover cropping; artwork is a normal proportional image. Wide screens use text and artwork side by side; portrait screens stack text above the entire illustration. Fixed navigation and header preserved. Static checks only; live device review pending.
+
+## v0.3.9 — Landing artwork and layout
+- Replaced hero image with new independent clean artwork region; generated interface text is excluded.
+- Responsive split layout on landscape, stacked contained image on portrait.
+- Updated visible version on all pages.
