@@ -2,9 +2,9 @@
 const $=id=>document.getElementById(id),stage=$('stage'),seek=$('seek'),counter=$('counter');
 const params=new URLSearchParams(location.search),id=params.get('book')||'gabe-and-jinx-01';
 const catalog={'gabe-and-jinx-01':'/books/gabe-and-jinx/book-01/manifest.json'};
-let book,index=0,spread=false,scale=1,panX=0,panY=0,gesture=null,ignoreClick=false;
+let book,index=0,spread=false,scale=1,panX=0,panY=0,gesture=null;
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
-const spreadCount=()=>spread&&innerWidth>=900?2:1;
+const spreadCount=()=>spread&&window.innerWidth>=900?2:1;
 const zoomed=()=>scale>1.015;
 function clampPan(){const frame=stage.getBoundingClientRect();panX=clamp(panX,-frame.width*(scale-1)/2,frame.width*(scale-1)/2);panY=clamp(panY,-frame.height*(scale-1)/2,frame.height*(scale-1)/2)}
 function applyZoom(){clampPan();const sheet=$('page-sheet');if(sheet)sheet.style.transform=`translate(${panX}px,${panY}px) scale(${scale})`;stage.classList.toggle('is-zoomed',zoomed());$('zoomreset').textContent=Math.round(scale*100)+'%';$('zoomout').disabled=scale<=1.001;$('zoomin').disabled=scale>=3.999}
@@ -22,7 +22,7 @@ addEventListener('keydown',e=>{if(['INPUT','TEXTAREA'].includes(document.activeE
 const pointers=new Map();let lastTap=0;
 const distance=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 stage.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&e.button!==0)return;stage.setPointerCapture?.(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===1)gesture={x:e.clientX,y:e.clientY,lastX:e.clientX,lastY:e.clientY,moved:false,pinch:false};if(pointers.size===2){const [a,b]=[...pointers.values()];gesture={pinch:true,dist:distance(a,b),startScale:scale,moved:true}}});
-stage.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;const old=pointers.get(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===2){const [a,b]=[...pointers.values()];if(!gesture?.pinch)gesture={pinch:true,dist:distance(a,b),startScale:scale,moved:true};scale=clamp(gesture.startScale*distance(a,b)/Math.max(1,gesture.dist),1,4);applyZoom();return}if(pointers.size===1&&gesture&&!gesture.pinch){const dx=e.clientX-gesture.lastX,dy=e.clientY-gesture.lastY;if(Math.hypot(e.clientX-gesture.x,e.clientY-gesture.y)>9)gesture.moved=true;if(zoomed()){panX+=dx;panY+=dy;applyZoom()}gesture.lastX=e.clientX;gesture.lastY=e.clientY}});
+stage.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===2){const [a,b]=[...pointers.values()];if(!gesture?.pinch)gesture={pinch:true,dist:distance(a,b),startScale:scale,moved:true};scale=clamp(gesture.startScale*distance(a,b)/Math.max(1,gesture.dist),1,4);applyZoom();return}if(pointers.size===1&&gesture&&!gesture.pinch){const dx=e.clientX-gesture.lastX,dy=e.clientY-gesture.lastY;if(Math.hypot(e.clientX-gesture.x,e.clientY-gesture.y)>9)gesture.moved=true;if(zoomed()){panX+=dx;panY+=dy;applyZoom()}gesture.lastX=e.clientX;gesture.lastY=e.clientY}});
 function endPointer(e){if(!pointers.has(e.pointerId))return;const g=gesture;pointers.delete(e.pointerId);if(pointers.size===0){if(g&&!g.pinch){const dx=e.clientX-g.x,dy=e.clientY-g.y;if(!zoomed()&&Math.abs(dx)>65&&Math.abs(dx)>Math.abs(dy)*1.2)move(dx<0?spreadCount():-spreadCount());else if(!g.moved){const now=Date.now();if(now-lastTap<320){setZoom(zoomed()?1:2.3);lastTap=0}else lastTap=now}}gesture=null}else if(g?.pinch){gesture=null}};
 stage.addEventListener('pointerup',endPointer);stage.addEventListener('pointercancel',endPointer);
 stage.addEventListener('wheel',e=>{if(!e.ctrlKey&&!e.metaKey)return;e.preventDefault();setZoom(scale*(e.deltaY<0?1.12:.89))},{passive:false});

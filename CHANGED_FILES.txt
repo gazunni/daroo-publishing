@@ -1,13 +1,8 @@
-DaRoo v0.2.1 changed/new files
-public/index.html
-public/reader.html
-public/assets/style.css
+DaRoo v0.2.2 lint hotfix
 public/assets/reader.js
-public/assets/images/daroo-approved-logo.webp
-public/books/gabe-and-jinx/book-01/manifest.json
+deploy.info
 README.md
 DEPLOYED.md
 CHANGED_FILES.txt
 PROJECT_TREE.txt
-deploy.info
 .env.example unchanged

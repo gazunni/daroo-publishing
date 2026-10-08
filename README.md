@@ -23,3 +23,6 @@ Full ZIP = entire repository. Changed ZIP = changed/new files only; no deletions
 - Pointer-based pinch zoom, double-tap, zoom controls (100%-400%), pan while zoomed, swipe only at 100%.
 - Development image assets are still contact sheets. Replace with individual full-resolution page files in the book manifest as artwork is finalized.
 - iPad Safari fullscreen availability varies; browser zoom gestures are handled within reader stage.
+
+## v0.2.2 lint hotfix
+Fixed unused variables ignoreClick and old; explicitly qualified window.innerWidth in reader.js. No UI changes. .env.example unchanged.
