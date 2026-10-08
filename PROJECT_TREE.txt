@@ -1,0 +1,17 @@
+daroo-publishing/
+├── .env.example
+├── README.md
+├── DEPLOYED.md
+├── CHANGED_FILES.txt
+├── PROJECT_TREE.txt
+└── public/
+    ├── index.html
+    ├── reader.html
+    ├── _headers
+    ├── robots.txt
+    ├── sitemap.xml
+    ├── assets/
+    │   ├── style.css
+    │   ├── site.js
+    │   └── reader.js
+    └── books/gabe-and-jinx/book-01/manifest.json
