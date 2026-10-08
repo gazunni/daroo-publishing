@@ -32,3 +32,7 @@ Fixed unused variables ignoreClick and old; explicitly qualified window.innerWid
 - Original Page 1 screenplay transcription at `public/books/gabe-and-jinx/book-01/page-01-script.txt`.
 - Visual draft is NOT final: panel 3 does not depict 16:17/pedestrian interruption; panel 5 shows more of Jinx than the screenplay allows. Lettering not baked into art.
 - No changes to `.env.example`; deployment remains GitHub/ZipToGit to Cloudflare Pages, output `public`.
+
+
+## v0.2.4 Page 1 lettering preview
+Original screenplay lettering is added as responsive HTML overlay, not burned into the image. Page 1 panel 3 and panel 5 artwork are still not screenplay-accurate; this is a website/lettering preview, not final approved art.

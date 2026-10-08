@@ -13,3 +13,13 @@
 .reader-tools button{min-width:38px;padding:10px 9px}.reader-tools #zoomreset{min-width:59px;font-size:12px}
 @media(max-width:600px){.reader-main{height:calc(100dvh - 62px);min-height:0;padding:5px 5px 8px}.readerbar{gap:6px;padding:0 8px}.reader-heading small{display:none}.reader-tools{gap:3px}.reader-tools button{min-width:28px;padding:8px 5px}.reader-tools #zoomreset{min-width:42px;font-size:10px}.reader-note{font-size:9px}}
 .brand-logo{width:58px;height:58px;object-fit:contain;flex-shrink:0}.imprint-mark img{width:125px;height:125px}
+
+/* Page 1 exact-script lettering, kept separate from the illustration */
+.reader-page{position:relative}
+.page-lettering{position:absolute;inset:0 0 28px 0;pointer-events:none;font-family:Georgia,serif;font-size:clamp(8px,1.2vw,17px);line-height:1.15;color:#181713}
+.page-lettering .letter{position:absolute;background:#fff7df;border:2px solid #1a1713;border-radius:3px;padding:.45em .6em;box-shadow:1px 2px 0 #0005;max-width:40%;font-weight:600}
+.page-lettering .location{top:7%;left:49%;max-width:38%}
+.page-lettering .gabe2{top:37%;left:2%;max-width:34%}
+.page-lettering .gabe3{top:38%;left:53%;max-width:24%}
+.page-lettering .gabe4{top:66%;left:3%;max-width:31%}
+@media(max-width:600px){.page-lettering{font-size:clamp(7px,2vw,12px)}.page-lettering .letter{border-width:1px;padding:.2em .35em}}
