@@ -17,7 +17,10 @@ public/assets/site.js
 public/assets/style.css
 public/books/gabe-and-jinx/book-01/manifest.json
 public/books/gabe-and-jinx/book-01/page-01-script.txt
+public/disclaimers.html
+public/imprint.html
 public/index.html
 public/reader.html
 public/robots.txt
 public/sitemap.xml
+public/stories.html

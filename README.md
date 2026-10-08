@@ -42,3 +42,8 @@ Lettering is rendered as a responsive SVG using artwork coordinates; location mo
 
 
 v0.2.6: Fixed detached lettering by baking Page 1 captions into the page artwork. The original unlettered preview remains available. Panel 3 and Panel 5 art are still pending correction.
+
+
+## v0.2.7: Multi-page site
+
+Four dedicated routes: `/` (Main), `/stories.html`, `/imprint.html`, `/disclaimers.html`. Fixed bottom navigation across all pages, including the comic reader. Disclaimer text is editorial draft pending rights/legal review before commercial print.
