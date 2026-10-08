@@ -4,12 +4,15 @@ CHANGED_FILES.txt
 DEPLOYED.md
 PROJECT_TREE.txt
 README.md
+SECURITY_REVIEW_v033.md
 deploy.info
 public/_headers
 public/assets/images/chamber-storyboard.webp
 public/assets/images/daroo-approved-logo.webp
 public/assets/images/daroo-emblem.webp
 public/assets/images/daroo-home-icon.png
+public/assets/images/daroo-icon-192.png
+public/assets/images/daroo-icon-512.png
 public/assets/images/daroo-original-artwork.webp
 public/assets/images/expedition-reference.webp
 public/assets/images/gabe-jinx-book01-page-01.webp

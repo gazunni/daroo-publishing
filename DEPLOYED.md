@@ -11,3 +11,6 @@ No manual deletions required for this update; older unused preview files remain 
 
 ## v032 — prepared for deployment, NOT yet deployed
 Imprint compression and Stories illustration replacement; no reader changes.
+
+## v033 package prepared, not deployed
+Security headers and install icons; live testing pending.

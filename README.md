@@ -60,3 +60,6 @@ v0.2.9: Reduced space between header and content on Imprint and Stories. Added i
 - Stories uses one new Book One illustration instead of the storyboard collage.
 - Reader and five page assets remain unchanged from v031.
 - ZipToGit FULL and CHANGED packages share the same repository root. No manual deletions; .env.example unchanged.
+
+## v033 security update
+See SECURITY_REVIEW_v033.md.

@@ -1,10 +1,10 @@
-DaRoo v032 — changed files relative to v031
-public/stories.html
-public/imprint.html
-public/assets/style.css
-public/assets/images/gabe-jinx-eye-of-the-desert-story-art.webp
-README.md
-DEPLOYED.md
+DaRoo v033 security update
+public/_headers
+public/manifest.webmanifest
+public/assets/images/daroo-icon-192.png
+public/assets/images/daroo-icon-512.png
+SECURITY_REVIEW_v033.md
 CHANGED_FILES.txt
 PROJECT_TREE.txt
-No deletions required. .env.example unchanged.
+README.md
+DEPLOYED.md
