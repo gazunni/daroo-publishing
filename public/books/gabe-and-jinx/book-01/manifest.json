@@ -1,37 +1,40 @@
 {
   "id": "gabe-and-jinx-01",
   "series": "Gabe & Jinx",
-  "title": "Book One \u2014 The Eye of the Desert",
-  "subtitle": "Working title \u00b7 In development",
+  "title": "Book One — The Eye of the Desert",
+  "subtitle": "Pages 1–5 · Sequential reader review",
   "status": "development",
-  "edition": "page-01-fixed-lettering-v026",
+  "edition": "five-page-sequential-reader-v027",
   "pages": [
     {
       "number": 1,
-      "title": "The Observer \u2014 Page 1 fixed-lettering preview",
-      "image": "/assets/images/gabe-jinx-page-01-lettered-v026.webp",
-      "alt": "Five-panel Marrakech artwork study: skyline, Gabe filming, street musician, courier, glimpse of Jinx kangaroo red scarf. Panel three is not yet screenplay-accurate."
+      "title": "Page 1",
+      "image": "/assets/images/gabe-jinx-book01-page-01.webp",
+      "alt": "Gabe and Jinx Book One, sequential comic page 1 of 56"
     },
     {
       "number": 2,
-      "title": "Marrakech",
-      "image": "/assets/images/morocco-storyboard.webp",
-      "alt": "Early illustrated storyboard exploration of Marrakech and the market chase",
-      "caption": "DEVELOPMENT STORYBOARD \u00b7 NOT FINAL ART"
+      "title": "Page 2",
+      "image": "/assets/images/gabe-jinx-book01-page-02.webp",
+      "alt": "Gabe and Jinx Book One, sequential comic page 2 of 56"
     },
     {
       "number": 3,
-      "title": "The impossible photograph",
-      "image": "/assets/images/expedition-reference.webp",
-      "alt": "Archival expedition photograph concept with annotations",
-      "caption": "EXPEDITION PHOTOGRAPH \u00b7 DEVELOPMENT REFERENCE"
+      "title": "Page 3",
+      "image": "/assets/images/gabe-jinx-book01-page-03.webp",
+      "alt": "Gabe and Jinx Book One, sequential comic page 3 of 56"
     },
     {
       "number": 4,
-      "title": "The buried mystery",
-      "image": "/assets/images/chamber-storyboard.webp",
-      "alt": "Storyboard concept panels for the chamber discovery",
-      "caption": "CHAMBER SEQUENCE \u00b7 STORYBOARD CONCEPT"
+      "title": "Page 4",
+      "image": "/assets/images/gabe-jinx-book01-page-04.webp",
+      "alt": "Gabe and Jinx Book One, sequential comic page 4 of 56"
+    },
+    {
+      "number": 5,
+      "title": "Page 5",
+      "image": "/assets/images/gabe-jinx-book01-page-05.webp",
+      "alt": "Gabe and Jinx Book One, sequential comic page 5 of 56"
     }
   ],
   "reader_layout": "single_page_portrait",

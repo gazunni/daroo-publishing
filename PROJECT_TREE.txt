@@ -1,4 +1,5 @@
 .env.example
+BOOK01_PAGES_01_05_RELEASE_NOTES.md
 CHANGED_FILES.txt
 DEPLOYED.md
 PROJECT_TREE.txt
@@ -11,6 +12,11 @@ public/assets/images/daroo-emblem.webp
 public/assets/images/daroo-home-icon.png
 public/assets/images/daroo-original-artwork.webp
 public/assets/images/expedition-reference.webp
+public/assets/images/gabe-jinx-book01-page-01.webp
+public/assets/images/gabe-jinx-book01-page-02.webp
+public/assets/images/gabe-jinx-book01-page-03.webp
+public/assets/images/gabe-jinx-book01-page-04.webp
+public/assets/images/gabe-jinx-book01-page-05.webp
 public/assets/images/gabe-jinx-page-01-artwork-preview.webp
 public/assets/images/gabe-jinx-page-01-lettered-v026.webp
 public/assets/images/morocco-storyboard.webp
@@ -20,6 +26,7 @@ public/assets/style.css
 public/books/gabe-and-jinx/book-01/manifest.json
 public/books/gabe-and-jinx/book-01/page-01-script.txt
 public/disclaimers.html
+public/holder
 public/imprint.html
 public/index.html
 public/manifest.webmanifest
