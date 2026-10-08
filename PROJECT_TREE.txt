@@ -1,17 +1,16 @@
-daroo-publishing/
-├── .env.example
-├── README.md
-├── DEPLOYED.md
-├── CHANGED_FILES.txt
-├── PROJECT_TREE.txt
-└── public/
-    ├── index.html
-    ├── reader.html
-    ├── _headers
-    ├── robots.txt
-    ├── sitemap.xml
-    ├── assets/
-    │   ├── style.css
-    │   ├── site.js
-    │   └── reader.js
-    └── books/gabe-and-jinx/book-01/manifest.json
+DaRoo_v010/
+  .env.example
+  CHANGED_FILES.txt
+  DEPLOYED.md
+  PROJECT_TREE.txt
+  README.md
+  deploy.info
+  public/_headers
+  public/assets/reader.js
+  public/assets/site.js
+  public/assets/style.css
+  public/books/gabe-and-jinx/book-01/manifest.json
+  public/index.html
+  public/reader.html
+  public/robots.txt
+  public/sitemap.xml

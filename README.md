@@ -2,6 +2,9 @@
 
 Static GitHub → Cloudflare Pages publishing site for **daroo.generify.ca**.
 
+## ZipToGit deployment
+Upload the complete `DaRoo_v010_ZipToGit_full.zip` directly into ZipToGit. Its single `DaRoo_v010/` wrapper is removed automatically, placing `public/` and `deploy.info` at repository root. The site remains undeployed until GitHub and Cloudflare are configured.
+
 ## Deploy
 1. Create GitHub repository `daroo-publishing` and upload the contents of this project (not the zip itself).
 2. Cloudflare dashboard → Workers & Pages → Create → Pages → Connect to Git → choose repository.

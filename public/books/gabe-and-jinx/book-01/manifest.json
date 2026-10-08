@@ -1,0 +1,35 @@
+{
+  "id": "gabe-and-jinx-01",
+  "series": "Gabe & Jinx",
+  "title": "Book One \u2014 The Eye of the Desert",
+  "subtitle": "Working title \u00b7 In development",
+  "status": "development",
+  "edition": "preview",
+  "pages": [
+    {
+      "number": 1,
+      "title": "The beginning",
+      "description": "Marrakech, 4:17 PM. An ordinary afternoon takes an unexpected turn."
+    },
+    {
+      "number": 2,
+      "title": "An unlikely encounter",
+      "description": "Gabe meets Jinx. Neither is impressed."
+    },
+    {
+      "number": 3,
+      "title": "The photograph",
+      "description": "An expedition photograph from 1926 raises impossible questions."
+    },
+    {
+      "number": 4,
+      "title": "The journey",
+      "description": "The Atlas Mountains hold more than a forgotten excavation."
+    },
+    {
+      "number": 5,
+      "title": "The discovery",
+      "description": "Some things are visible before they are understood."
+    }
+  ]
+}
