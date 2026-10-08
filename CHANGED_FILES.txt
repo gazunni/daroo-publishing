@@ -1,8 +1,8 @@
-DaRoo v0.2.2 lint hotfix
-public/assets/reader.js
-deploy.info
+public/assets/images/gabe-jinx-page-01-artwork-preview.webp
+public/books/gabe-and-jinx/book-01/manifest.json
+public/books/gabe-and-jinx/book-01/page-01-script.txt
 README.md
 DEPLOYED.md
 CHANGED_FILES.txt
 PROJECT_TREE.txt
-.env.example unchanged
+deploy.info

@@ -26,3 +26,9 @@ Full ZIP = entire repository. Changed ZIP = changed/new files only; no deletions
 
 ## v0.2.2 lint hotfix
 Fixed unused variables ignoreClick and old; explicitly qualified window.innerWidth in reader.js. No UI changes. .env.example unchanged.
+
+## v0.2.3 Page 1 deployment preview
+- Reader first item now Page 1 five-panel artwork draft, followed by three clearly labelled historical concept previews.
+- Original Page 1 screenplay transcription at `public/books/gabe-and-jinx/book-01/page-01-script.txt`.
+- Visual draft is NOT final: panel 3 does not depict 16:17/pedestrian interruption; panel 5 shows more of Jinx than the screenplay allows. Lettering not baked into art.
+- No changes to `.env.example`; deployment remains GitHub/ZipToGit to Cloudflare Pages, output `public`.
