@@ -20,3 +20,6 @@ Security headers and install icons; live testing pending.
 - Adds public/version.json and sync-version.py for repeatable future release versioning.
 - Adds version policy and history to README.md.
 - No changes to comic artwork, reader logic, manifest, .env.example or security headers.
+
+## v0.3.5 — prepared, not yet deployed
+Main page spacing tightened; storyboard replaced with cropped clean portion of generated illustration, excluding embedded mockup UI. Version incremented and synchronized.

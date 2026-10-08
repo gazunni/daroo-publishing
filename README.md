@@ -77,3 +77,5 @@ See SECURITY_REVIEW_v033.md.
 | 2026-10-08 | v0.3.4 (ZipToGit v034) | Fixed-menu version label, centralized version metadata, synchronization script and release logging | Packaged; live deployment not verified |
 | 2026-10-08 | v0.3.3 (ZipToGit v033) | Security response headers, installable-app icons and manifest update | Previous package |
 | 2026-10-08 | v0.3.2 (ZipToGit v032) | Compressed Imprint layout and single story illustration | Previous package |
+
+| 2026-10-08 | v0.3.5 (ZipToGit v035) | Compact Main landing layout; replace obsolete storyboard with original story artwork; keep site header/navigation | Packaged; live review pending |

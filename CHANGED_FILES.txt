@@ -1,16 +1,13 @@
-DaRoo v0.3.4 / ZipToGit v034
+v0.3.5 changed files:
 public/index.html
-public/stories.html
+public/assets/style.css
+public/assets/images/daroo-landing-adventure-v035.webp
+public/version.json
 public/imprint.html
+public/stories.html
 public/disclaimers.html
 public/reader.html
-public/assets/style.css
-public/version.json
-sync-version.py
 README.md
 DEPLOYED.md
 CHANGED_FILES.txt
 PROJECT_TREE.txt
-
-.env.example: UNCHANGED
-Manual deletions: NONE
