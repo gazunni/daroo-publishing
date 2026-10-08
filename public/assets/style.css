@@ -56,3 +56,20 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
 .page-imprint .imprint-mark{margin-top:20px}
 @media(max-width:900px){.site-page .imprint,.site-page .story-section{padding-top:22px;padding-bottom:36px}}
 @media(max-width:600px){.site-page .imprint,.site-page .story-section{padding-top:16px;padding-bottom:28px}}
+
+/* v0.3.2 — compact Imprint and single Book One story illustration */
+.page-imprint main{max-width:1180px;margin:0 auto;padding:0 clamp(18px,4vw,44px)}
+.page-imprint .imprint{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(22px,4vw,55px);padding:16px 0 8px;align-items:start}
+.page-imprint .imprint h2{font-size:clamp(34px,4.2vw,56px);margin:10px 0 12px}
+.page-imprint .imprint p:not(.eyebrow){font-size:clamp(14px,1.5vw,17px);line-height:1.45;margin:0 0 10px}
+.page-imprint .imprint-mark{margin:12px 0 0;gap:5px}
+.page-imprint .imprint-mark img{width:min(100%,330px);max-height:230px;height:auto;object-fit:contain}
+.page-imprint .imprint-mark span{font-size:9px}
+.page-imprint .editorial{max-width:none;margin:0;padding:8px 0 16px;border-top:1px solid var(--line)}
+.page-imprint .editorial h2{font-size:clamp(20px,2.5vw,26px);margin:4px 0 5px}
+.page-imprint .editorial p{font-size:clamp(13px,1.4vw,16px);line-height:1.45;margin:0}
+.page-stories .story-image{min-height:0;aspect-ratio:2/3;background:#1b2428}
+.page-stories .story-image img{object-fit:contain;object-position:center}
+.page-stories .story-image .art-label{bottom:10px;left:10px;font-size:9px}
+@media(max-width:900px){.page-imprint .imprint{grid-template-columns:1fr;gap:8px}.page-imprint .imprint h2{font-size:clamp(33px,5vw,45px)}.page-imprint .imprint-mark img{width:min(100%,310px);max-height:205px}.page-imprint .imprint{padding-top:12px}.page-imprint .editorial{padding-bottom:8px}.page-stories .story-image{max-width:620px;margin:auto}}
+@media(max-width:600px){.page-imprint .imprint h2{margin:7px 0 9px}.page-imprint .imprint p:not(.eyebrow){font-size:14px;line-height:1.4;margin-bottom:7px}.page-imprint .imprint-mark{margin-top:7px}.page-imprint .imprint-mark img{max-height:170px}.page-imprint .editorial p{font-size:13px}.page-imprint .editorial h2{font-size:20px}.page-imprint .imprint{padding-top:10px}}

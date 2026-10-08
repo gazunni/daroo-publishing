@@ -2,7 +2,6 @@
 BOOK01_PAGES_01_05_RELEASE_NOTES.md
 CHANGED_FILES.txt
 DEPLOYED.md
-PAGE04_ART_CORRECTION.md
 PROJECT_TREE.txt
 README.md
 deploy.info
@@ -18,6 +17,7 @@ public/assets/images/gabe-jinx-book01-page-02.webp
 public/assets/images/gabe-jinx-book01-page-03.webp
 public/assets/images/gabe-jinx-book01-page-04.webp
 public/assets/images/gabe-jinx-book01-page-05.webp
+public/assets/images/gabe-jinx-eye-of-the-desert-story-art.webp
 public/assets/images/gabe-jinx-page-01-artwork-preview.webp
 public/assets/images/gabe-jinx-page-01-lettered-v026.webp
 public/assets/images/morocco-storyboard.webp

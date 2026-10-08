@@ -7,3 +7,7 @@ Use FULL ZIP for complete deployment or CHANGED ZIP for in-place update. Both us
 No manual deletions required for this update; older unused preview files remain intact.
 
 .env.example unchanged.
+
+
+## v032 — prepared for deployment, NOT yet deployed
+Imprint compression and Stories illustration replacement; no reader changes.

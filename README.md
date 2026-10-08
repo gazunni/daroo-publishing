@@ -53,3 +53,10 @@ v0.2.8: Replace header text wordmark with approved DaRoo logo on all four site p
 
 
 v0.2.9: Reduced space between header and content on Imprint and Stories. Added iPad Home Screen standalone web-app metadata, manifest and icon. iPad Safari cannot be programmatically forced into fullscreen; users must use Share > Add to Home Screen > Open as Web App when offered.
+
+
+## v032 — Site presentation
+- The Imprint is condensed into a portrait-friendly layout with tighter typography, spacing and artwork size.
+- Stories uses one new Book One illustration instead of the storyboard collage.
+- Reader and five page assets remain unchanged from v031.
+- ZipToGit FULL and CHANGED packages share the same repository root. No manual deletions; .env.example unchanged.
