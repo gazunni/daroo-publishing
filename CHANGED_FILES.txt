@@ -1,12 +1,11 @@
-v0.3.5 changed files:
+DaRoo v0.3.6
 public/index.html
 public/assets/style.css
-public/assets/images/daroo-landing-adventure-v035.webp
 public/version.json
 public/imprint.html
 public/stories.html
-public/disclaimers.html
 public/reader.html
+public/disclaimers.html
 README.md
 DEPLOYED.md
 CHANGED_FILES.txt

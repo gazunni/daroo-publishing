@@ -79,3 +79,6 @@ See SECURITY_REVIEW_v033.md.
 | 2026-10-08 | v0.3.2 (ZipToGit v032) | Compressed Imprint layout and single story illustration | Previous package |
 
 | 2026-10-08 | v0.3.5 (ZipToGit v035) | Compact Main landing layout; replace obsolete storyboard with original story artwork; keep site header/navigation | Packaged; live review pending |
+
+## v0.3.6 — Responsive landing hero repair (2026-10-08)
+Merged hero copy and artwork into one layered responsive section, preventing separate black text block and excessive portrait crop. Preserved site header, reader, bottom nav and other pages. Package prepared; deployment not verified.
