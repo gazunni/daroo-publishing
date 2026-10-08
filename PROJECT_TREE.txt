@@ -10,6 +10,7 @@ public/assets/images/daroo-approved-logo.webp
 public/assets/images/daroo-emblem.webp
 public/assets/images/expedition-reference.webp
 public/assets/images/gabe-jinx-page-01-artwork-preview.webp
+public/assets/images/gabe-jinx-page-01-lettered-v026.webp
 public/assets/images/morocco-storyboard.webp
 public/assets/reader.js
 public/assets/site.js

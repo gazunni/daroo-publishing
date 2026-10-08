@@ -1,6 +1,7 @@
 public/assets/reader.js
 public/assets/style.css
 public/books/gabe-and-jinx/book-01/manifest.json
+public/assets/images/gabe-jinx-page-01-lettered-v026.webp
 README.md
 DEPLOYED.md
 CHANGED_FILES.txt

@@ -39,3 +39,6 @@ Original screenplay lettering is added as responsive HTML overlay, not burned in
 
 ## v0.2.5 Page 1 lettering
 Lettering is rendered as a responsive SVG using artwork coordinates; location moved into open sky, Gabe dialogue to the lower left of panel 2, and courier dialogue to the left of panel 4. The intrusive development caption is removed from the image. No changes to .env.example. Art remains a preview.
+
+
+v0.2.6: Fixed detached lettering by baking Page 1 captions into the page artwork. The original unlettered preview remains available. Panel 3 and Panel 5 art are still pending correction.

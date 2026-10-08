@@ -18,3 +18,5 @@
 .reader-page:has(.page-lettering){aspect-ratio:auto}
 .reader-page .page-lettering{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;display:block}
 .reader-page:has(.page-lettering) img{width:100%;height:auto}
+
+/* v0.2.6: lettering is baked into the page image; no detached SVG overlays. */
