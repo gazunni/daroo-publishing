@@ -1,10 +1,16 @@
-DaRoo v033 security update
-public/_headers
-public/manifest.webmanifest
-public/assets/images/daroo-icon-192.png
-public/assets/images/daroo-icon-512.png
-SECURITY_REVIEW_v033.md
-CHANGED_FILES.txt
-PROJECT_TREE.txt
+DaRoo v0.3.4 / ZipToGit v034
+public/index.html
+public/stories.html
+public/imprint.html
+public/disclaimers.html
+public/reader.html
+public/assets/style.css
+public/version.json
+sync-version.py
 README.md
 DEPLOYED.md
+CHANGED_FILES.txt
+PROJECT_TREE.txt
+
+.env.example: UNCHANGED
+Manual deletions: NONE

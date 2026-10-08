@@ -63,3 +63,17 @@ v0.2.9: Reduced space between header and content on Imprint and Stories. Added i
 
 ## v033 security update
 See SECURITY_REVIEW_v033.md.
+
+## Application versioning policy (introduced v0.3.4)
+- Source of truth: `public/version.json` (`version` and `release`).
+- Every website change increments the semantic version and updates the release history below, `DEPLOYED.md`, `CHANGED_FILES.txt`, and the two ZipToGit packages.
+- Before packaging, run `python sync-version.py` to update the visible bottom-right version label on every HTML page, including the reader.
+- The visible label reflects the **packaged version**, not an independently verified live deployment. Verify after deploying and refresh stale browser caches if needed.
+- The release history should include date, version, scope and verification status.
+
+### Release history
+| Date | Version | Change | Status |
+| --- | --- | --- | --- |
+| 2026-10-08 | v0.3.4 (ZipToGit v034) | Fixed-menu version label, centralized version metadata, synchronization script and release logging | Packaged; live deployment not verified |
+| 2026-10-08 | v0.3.3 (ZipToGit v033) | Security response headers, installable-app icons and manifest update | Previous package |
+| 2026-10-08 | v0.3.2 (ZipToGit v032) | Compressed Imprint layout and single story illustration | Previous package |

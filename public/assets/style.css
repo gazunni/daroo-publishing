@@ -73,3 +73,8 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
 .page-stories .story-image .art-label{bottom:10px;left:10px;font-size:9px}
 @media(max-width:900px){.page-imprint .imprint{grid-template-columns:1fr;gap:8px}.page-imprint .imprint h2{font-size:clamp(33px,5vw,45px)}.page-imprint .imprint-mark img{width:min(100%,310px);max-height:205px}.page-imprint .imprint{padding-top:12px}.page-imprint .editorial{padding-bottom:8px}.page-stories .story-image{max-width:620px;margin:auto}}
 @media(max-width:600px){.page-imprint .imprint h2{margin:7px 0 9px}.page-imprint .imprint p:not(.eyebrow){font-size:14px;line-height:1.4;margin-bottom:7px}.page-imprint .imprint-mark{margin-top:7px}.page-imprint .imprint-mark img{max-height:170px}.page-imprint .editorial p{font-size:13px}.page-imprint .editorial h2{font-size:20px}.page-imprint .imprint{padding-top:10px}}
+
+/* v0.3.4 — subtle fixed navigation version identifier */
+.bottom-nav{position:fixed}
+.bottom-nav .app-version{position:absolute;right:max(9px,env(safe-area-inset-right,0px));bottom:calc(2px + env(safe-area-inset-bottom,0px));font:500 9px/1.1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.025em;color:#758187;opacity:.55;pointer-events:none;user-select:none;white-space:nowrap;z-index:1}
+@media(max-width:600px){.bottom-nav .app-version{font-size:8px;right:max(5px,env(safe-area-inset-right,0px));opacity:.48}}

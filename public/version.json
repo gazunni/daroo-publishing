@@ -1,0 +1,7 @@
+{
+  "app": "DaRoo",
+  "version": "0.3.4",
+  "release": "v034",
+  "previous_version": "0.3.3",
+  "notes": "Fixed bottom navigation version display on all pages, including reader"
+}
