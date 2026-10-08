@@ -1,40 +1,40 @@
 {
   "id": "gabe-and-jinx-01",
   "series": "Gabe & Jinx",
-  "title": "Book One \u2014 The Eye of the Desert",
-  "subtitle": "Five individual sequential pages",
-  "status": "development",
-  "edition": "five-individual-pages-v030",
+  "title": "Book One — The Eye of the Desert",
+  "subtitle": "Five individual portrait comic pages — October 8 review",
+  "status": "review",
+  "edition": "five-independent-portrait-pages-v031",
   "pages": [
     {
       "number": 1,
       "title": "Page 1",
       "image": "/assets/images/gabe-jinx-book01-page-01.webp",
-      "alt": "Gabe and Jinx Book One, sequential comic page 1 of 56"
+      "alt": "Gabe and Jinx Book One, portrait comic page 1 of 5"
     },
     {
       "number": 2,
       "title": "Page 2",
       "image": "/assets/images/gabe-jinx-book01-page-02.webp",
-      "alt": "Gabe and Jinx Book One, sequential comic page 2 of 56"
+      "alt": "Gabe and Jinx Book One, portrait comic page 2 of 5"
     },
     {
       "number": 3,
       "title": "Page 3",
       "image": "/assets/images/gabe-jinx-book01-page-03.webp",
-      "alt": "Gabe and Jinx Book One, sequential comic page 3 of 56"
+      "alt": "Gabe and Jinx Book One, portrait comic page 3 of 5"
     },
     {
       "number": 4,
       "title": "Page 4",
       "image": "/assets/images/gabe-jinx-book01-page-04.webp",
-      "alt": "Gabe and Jinx Book One, sequential comic page 4 of 56"
+      "alt": "Gabe and Jinx Book One, portrait comic page 4 of 5"
     },
     {
       "number": 5,
       "title": "Page 5",
       "image": "/assets/images/gabe-jinx-book01-page-05.webp",
-      "alt": "Gabe and Jinx Book One, sequential comic page 5 of 56"
+      "alt": "Gabe and Jinx Book One, portrait comic page 5 of 5"
     }
   ],
   "reader_layout": "single_page_portrait",
