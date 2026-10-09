@@ -1,0 +1,6 @@
+DaRoo Chapter 1 artwork update — 11 pages
+New approved pages 1–3; old pages 1–8 become 4–11.
+Reader manifest updated to 11 pages.
+Existing art's embedded page numbers, if any, are NOT erased.
+Upload all files together with ZipToGit to main; do not delete other repository files.
+Note: this is a changed-files-only package based on existing v0.4.2 main.
