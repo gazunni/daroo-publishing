@@ -12,3 +12,4 @@ public/stories.html
 public/reader.html
 public/imprint.html
 public/disclaimers.html
+wrangler.jsonc
