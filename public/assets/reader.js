@@ -11,7 +11,26 @@ function applyZoom(){clampPan();const sheet=$('page-sheet');if(sheet)sheet.style
 function resetZoom(){scale=1;panX=panY=0;applyZoom()}
 function setZoom(next){const was=scale;scale=clamp(next,1,4);if(scale===1){panX=panY=0}else if(was>1){panX*=scale/was;panY*=scale/was}applyZoom()}
 function makePage(p){const el=document.createElement('article');el.className='reader-page';el.setAttribute('aria-label','Book page '+p.number);if(p.image){const img=document.createElement('img');img.src=p.image;img.alt=p.alt||p.title||'Development artwork';img.draggable=false;el.append(img);const folio=document.createElement('div');folio.className='reader-folio';folio.textContent='PAGE '+p.number+' OF '+book.pages.length;folio.setAttribute('aria-hidden','true');el.append(folio);if(p.caption){const cap=document.createElement('div');cap.className='page-caption';cap.textContent=p.caption;el.append(cap)}}else{el.classList.add('placeholder');const h=document.createElement('h2');h.textContent=p.title||'Preview';const d=document.createElement('p');d.textContent=p.description||'';el.append(h,d)}return el}
-function draw(){if(!book)return;const n=spreadCount();index=clamp(index,0,Math.max(0,book.pages.length-n));stage.replaceChildren();const sheet=document.createElement('div');sheet.className='page-sheet';sheet.id='page-sheet';sheet.classList.toggle('spread',n===2);for(let i=index;i<Math.min(index+n,book.pages.length);i++)sheet.append(makePage(book.pages[i]));stage.append(sheet);counter.textContent=(index+1)+(n===2&&index+1<book.pages.length?'–'+(index+2):'')+' / '+book.pages.length;seek.value=index+1;$('prev').disabled=index===0;$('next').disabled=index+n>=book.pages.length;history.replaceState(null,'',location.pathname+'?book='+encodeURIComponent(id)+'&page='+(index+1));resetZoom()}
+const imageWarmCache=new Map();
+function warmAdjacentPages(){
+  if(!book)return;
+  const count=spreadCount();
+  const candidates=[index+count,index+count+1,index-1];
+  const wanted=new Set();
+  for(const i of candidates){
+    const src=book.pages[i]?.image;
+    if(!src)continue;
+    wanted.add(src);
+    if(!imageWarmCache.has(src)){
+      const image=new Image();
+      image.decoding='async';
+      image.src=src;
+      imageWarmCache.set(src,image);
+    }
+  }
+  for(const [src] of imageWarmCache){if(!wanted.has(src))imageWarmCache.delete(src)}
+}
+function draw(){if(!book)return;const n=spreadCount();index=clamp(index,0,Math.max(0,book.pages.length-n));stage.replaceChildren();const sheet=document.createElement('div');sheet.className='page-sheet';sheet.id='page-sheet';sheet.classList.toggle('spread',n===2);for(let i=index;i<Math.min(index+n,book.pages.length);i++)sheet.append(makePage(book.pages[i]));stage.append(sheet);counter.textContent=(index+1)+(n===2&&index+1<book.pages.length?'–'+(index+2):'')+' / '+book.pages.length;seek.value=index+1;$('prev').disabled=index===0;$('next').disabled=index+n>=book.pages.length;history.replaceState(null,'',location.pathname+'?book='+encodeURIComponent(id)+'&page='+(index+1));resetZoom();warmAdjacentPages()}
 function move(delta){if(!book||zoomed())return;index=clamp(index+delta,0,Math.max(0,book.pages.length-spreadCount()));draw()}
 $('prev').onclick=()=>move(-spreadCount());$('next').onclick=()=>move(spreadCount());
 seek.oninput=()=>{index=Number(seek.value)-1;draw()};
