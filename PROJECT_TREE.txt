@@ -1,5 +1,6 @@
 .env.example
 BOOK01_PAGES_01_05_RELEASE_NOTES.md
+BOOK01_PAGES_06_08_REVIEW.md
 CHANGED_FILES.txt
 DEPLOYED.md
 PROJECT_TREE.txt
@@ -24,6 +25,9 @@ public/assets/images/gabe-jinx-book01-page-02.webp
 public/assets/images/gabe-jinx-book01-page-03.webp
 public/assets/images/gabe-jinx-book01-page-04.webp
 public/assets/images/gabe-jinx-book01-page-05.webp
+public/assets/images/gabe-jinx-book01-page-06.webp
+public/assets/images/gabe-jinx-book01-page-07.webp
+public/assets/images/gabe-jinx-book01-page-08.webp
 public/assets/images/gabe-jinx-eye-of-the-desert-story-art.webp
 public/assets/images/gabe-jinx-page-01-artwork-preview.webp
 public/assets/images/gabe-jinx-page-01-lettered-v026.webp

@@ -101,3 +101,11 @@ Removed background-style cover cropping; artwork is a normal proportional image.
 - Retained hero artwork, responsive layout, navigation, reader implementation, and five book pages.
 - Updated visible footer version across all five HTML pages and `public/version.json`.
 - `.env.example` unchanged. No file deletions needed.
+
+## v0.4.1 — 2026-10-09 — Book One Pages 6–8
+- Added three separately rendered portrait comic page assets (6, 7, 8).
+- Updated Book One reader manifest from 5 to 8 sequentially indexed pages.
+- Kept review status: visual and screenplay continuity approval still pending.
+- Preserved site navigation, existing comic pages, and site security headers.
+- Updated site-wide visible version indicator to v0.4.1.
+- FULL and CHANGED ZipToGit packages; no files require deletion.

@@ -38,3 +38,6 @@ Clean hero artwork and responsive landing page.
 
 ## v0.4.0 (package prepared; not deployed)
 Catalog-first navigation; removed global reader shortcuts. Live deployment unverified.
+
+## v0.4.1 — package prepared, not deployed
+Book One reader expanded to 8 review pages; deployment and device review pending.
