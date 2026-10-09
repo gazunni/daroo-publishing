@@ -41,3 +41,6 @@ Catalog-first navigation; removed global reader shortcuts. Live deployment unver
 
 ## v0.4.1 — package prepared, not deployed
 Book One reader expanded to 8 review pages; deployment and device review pending.
+
+## v0.4.2 — GitHub review branch, NOT deployed
+Reader folios placed outside the artwork; dynamic reader note; manifest accessibility text; site version synchronization and documentation maintenance. No comic image bytes changed. Requires review/merge and live-device verification.
