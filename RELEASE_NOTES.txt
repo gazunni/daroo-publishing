@@ -1,0 +1,1 @@
+DaRoo v0.4.4: remove duplicated original composite Page 4. Approved Pages 1-3 retained byte-for-byte. Old Pages 5-11 now Pages 4-10. Update manifest to 10 pages. Upload in overwrite/add mode, preserve public/ paths. Note old page 11 image may remain unused in repository; not referenced by manifest. Reader performance patch is a separate GitHub change.
