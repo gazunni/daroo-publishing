@@ -8,4 +8,4 @@ Each page is an independent 1024x1536 portrait image, not a sliced spread.
 
 **Editorial warning:** Page 6 ends at the doorway and Page 7 revisits the pursuit, creating some overlap. Page 8's ring/door symbol comparison is not perfectly consistent. Jinx's anatomy remains more canine than kangaroo. These are development review pages, not approved final production masters.
 
-No remote GitHub changes were made. Deploy the ZIP using ZipToGit after verifying no path warnings.
+Pages 6–8 are present in GitHub main as of v0.4.1. The v0.4.2 maintenance branch adds uniform reader folios outside the artwork; inconsistent page labels already baked into images are NOT removed and need separate editorial correction.

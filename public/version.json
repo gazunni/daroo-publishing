@@ -1,7 +1,7 @@
 {
   "app": "DaRoo",
-  "version": "0.4.1",
-  "release": "v041",
-  "previous_version": "0.4.0",
-  "notes": "Add three independent portrait comic pages 6, 7, 8 to Book One reader manifest"
+  "version": "0.4.2",
+  "release": "v042",
+  "previous_version": "0.4.1",
+  "notes": "Maintenance: consistent reader folios, dynamic page count, version and documentation synchronization"
 }

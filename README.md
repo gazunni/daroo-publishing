@@ -1,4 +1,4 @@
-# DaRoo Publishing — v0.2.0
+# DaRoo Publishing
 
 Production domain: https://daroo.generify.ca
 
@@ -109,3 +109,11 @@ Removed background-style cover cropping; artwork is a normal proportional image.
 - Preserved site navigation, existing comic pages, and site security headers.
 - Updated site-wide visible version indicator to v0.4.1.
 - FULL and CHANGED ZipToGit packages; no files require deletion.
+
+## v0.4.2 — 2026-10-09 — Reader numbering and metadata maintenance
+- Reader displays a consistent `PAGE N OF 8` folio beneath each page image, outside the illustrated art area; the progress counter remains available.
+- Reader note uses the actual manifest page count rather than hard-coded Pages 1–5.
+- Corrected image accessibility descriptions from `of 5` to `of 8`.
+- Synchronized visible version and accessible version labels across all five site pages.
+- Updated documentation and preserved existing images. Some images contain baked-in inconsistent page labels; correcting those requires a separate art-master revision and has not been represented as completed.
+- Changes prepared on a GitHub review branch; production deployment and live device rendering require separate verification.
