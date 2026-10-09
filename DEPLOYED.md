@@ -44,3 +44,6 @@ Book One reader expanded to 8 review pages; deployment and device review pending
 
 ## v0.4.2 — GitHub review branch, NOT deployed
 Reader folios placed outside the artwork; dynamic reader note; manifest accessibility text; site version synchronization and documentation maintenance. No comic image bytes changed. Requires review/merge and live-device verification.
+
+## Worker preview configuration
+The GitHub-connected Cloudflare project is a Worker named `daroo-publishing`. `wrangler.jsonc` configures static assets from `./public` and an empty `previews` block for `npx wrangler preview`. Cloudflare preview/deployment must be verified; production deploy command should be `npx wrangler deploy`.
