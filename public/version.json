@@ -1,7 +1,7 @@
 {
   "app": "DaRoo",
-  "version": "0.4.10",
-  "release": "v0410",
-  "previous_version": "0.4.9",
-  "notes": "Add checksum-locked approved artwork registry and image integrity checks to release packager; no artwork or reader changes"
+  "version": "0.4.11",
+  "release": "v0411",
+  "previous_version": "0.4.10",
+  "notes": "Replace Page 4 with user-supplied no-numbering artwork and lock new SHA-256; no other page artwork changes"
 }

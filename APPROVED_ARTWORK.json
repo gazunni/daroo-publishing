@@ -36,22 +36,22 @@
     {
       "page": 4,
       "path": "public/assets/images/gabe-jinx-book01-page-04.webp",
-      "sha256": "de1becee4336363076244ef8fa2468ddf805a9c799707dca1cf5fa560ff7ce2e",
+      "sha256": "44aa97ec53d5884bb08ddf95ff63b71dcaf9cca2c2181b8eb29491e849159f4a",
       "width": 1024,
       "height": 1536,
       "format": "WEBP",
       "approval_status": "approved",
-      "notes": "Approved correction: removed legacy top page numbering only; page content otherwise preserved."
+      "notes": "Approved standalone Page 4 source provided October 10, 2026; no embedded top page number, with original five-panel souk exchange composition and white margins. Replaces Page 4 only."
     },
     {
       "page": 5,
       "path": "public/assets/images/gabe-jinx-book01-page-05.webp",
-      "sha256": "bafefd954800daee07f4f02d68ce8d6b5186eb8319fb588ca092e71cfee6c7e4",
+      "sha256": "91eed69bc56b5725e0e48c0d6e0d662b8578a490547c3de714cb256e27b8f5f0",
       "width": 1024,
       "height": 1536,
       "format": "WEBP",
-      "approval_status": "approved",
-      "notes": "Approved correction: removed legacy top page numbering and restored clean production margins."
+      "approval_status": "pending_editorial_confirmation",
+      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
     },
     {
       "page": 6,
@@ -132,7 +132,7 @@
       "height": 1536,
       "format": "WEBP",
       "approval_status": "approved",
-      "notes": "Jinx leaves independently; Chapter 1 \u2014 END."
+      "notes": "Jinx leaves independently; Chapter 1 — END."
     }
   ]
 }

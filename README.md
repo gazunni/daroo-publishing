@@ -149,3 +149,9 @@ Removed background-style cover cropping; artwork is a normal proportional image.
 
 ## v0.4.10 — Artwork registry (packaged, not verified live)
 Adds `APPROVED_ARTWORK.json` with SHA-256 hashes, image dimensions, and separate editorial approval status for all 13 chapter pages. `package.py` refuses to package if any registered image changes, is missing, has a malformed WebP header, or has unrecorded nonstandard dimensions. Pages 11–13 correspond to recently approved revisions; Pages 1–10 remain pending editorial confirmation. Page 8's existing 1024×1335 dimensions are documented as an exception rather than changed. No image bytes, manifest, reader UI or `.env.example` changed. This gate catches unexpected byte substitutions but cannot judge story or visual quality. To intentionally change artwork, require user approval, then update its hash and approval note in the same authorized release.
+
+## v0.4.11 — 2026-10-10 — Page 4 numbering removal
+- Replaced only Page 4 artwork with user-supplied five-panel portrait without legacy top numbering.
+- Updated Page 4 checksum in `APPROVED_ARTWORK.json`; other 12 page files and hashes unchanged.
+- Bumped version for reader image cache busting. HTML changes limited to synced version fallback labels.
+- Packaged and locally validated, not verified live.
