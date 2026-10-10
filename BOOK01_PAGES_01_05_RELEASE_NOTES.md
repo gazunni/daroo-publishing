@@ -1,15 +1,7 @@
-# Book One Pages 1–5 — October 8, 2026
+# Book One: Five Individual Pages — v030
 
-Five independent 1024 × 1536 portrait illustrations, encoded as high-quality WebP. These are screen-review masters, **not print-resolution masters**.
+Five separate, full-height page assets are integrated into the Book One reader. Page 5 is complete (no black truncated section). Source artwork was generated as one five-page composition, cropped into individual pages and resampled to 1500 px width. This is **not native-resolution, print-production-ready art**; upscaling does not recover detail. Editorial review and a native high-resolution redraw are still needed before a print-production signoff.
 
-Page 4: three panels — approach, oversized trip, café crash; no dialogue duplicated from Page 5. Page 5: talking kangaroo exchange and 1,200 DH bill.
+ZipToGit manual deletions: NONE. Older assets are retained but not used by the manifest.
 
-The existing reader manifest references all five replacement files using the original image paths. Zoom, navigation, and site sections remain unchanged.
-
-## Deployment
-Upload FULL archive for a complete replacement, or CHANGED archive to update an existing repository. ZIP entries retain the original `daroo-publishing-main/` root directory. No manual deletions are required for this image-replacement release; legacy unused previews remain in the original repository and are not removed. ZipToGit does not delete remote files.
-
-## Verification scope
-Checked all five portrait image dimensions, image decoding, manifest order, archive members, and JavaScript syntax. No live browser/deployed website test was performed.
-
-`.env.example` was not changed.
+.env.example unchanged.

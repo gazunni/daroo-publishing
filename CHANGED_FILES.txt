@@ -1,15 +1,6 @@
-DaRoo v0.4.2 — GitHub review branch
-README.md
-DEPLOYED.md
-CHANGED_FILES.txt
-BOOK01_PAGES_06_08_REVIEW.md
-public/assets/reader.js
-public/assets/style.css
+public/assets/images/gabe-jinx-book01-page-12.webp
+public/assets/images/gabe-jinx-book01-page-13.webp
 public/books/gabe-and-jinx/book-01/manifest.json
-public/version.json
-public/index.html
-public/stories.html
-public/reader.html
-public/imprint.html
-public/disclaimers.html
-wrangler.jsonc
+CHAPTER01_REVIEW_RELEASE.md
+CHANGED_FILES.txt
+PROJECT_TREE.txt

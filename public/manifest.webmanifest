@@ -8,17 +8,10 @@
   "theme_color": "#0b1216",
   "icons": [
     {
-      "src": "/assets/images/daroo-icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/assets/images/daroo-icon-512.png",
-      "sizes": "512x512",
+      "src": "/assets/images/daroo-home-icon.png",
+      "sizes": "180x180",
       "type": "image/png",
       "purpose": "any"
     }
-  ],
-  "id": "/"
+  ]
 }
