@@ -1,7 +1,7 @@
 {
   "app": "DaRoo",
-  "version": "0.4.9",
-  "release": "v049",
-  "previous_version": "0.4.8",
-  "notes": "Reference images moved out of public/ into reference/; package.py release checker and packager; sitemap completed; release docs repaired"
+  "version": "0.4.10",
+  "release": "v0410",
+  "previous_version": "0.4.9",
+  "notes": "Add checksum-locked approved artwork registry and image integrity checks to release packager; no artwork or reader changes"
 }

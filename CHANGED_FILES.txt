@@ -1,24 +1,13 @@
-DaRoo v049 reference folder, package.py and housekeeping release
+DaRoo v0410 approved artwork registry and image integrity packaging checks
+APPROVED_ARTWORK.json
 package.py
-MANUAL_DELETIONS.txt
-reference/INDEX.md
-reference/chamber-storyboard.webp
-reference/daroo-emblem.webp
-reference/daroo-hero-landscape-v037.webp
-reference/daroo-hero-portrait-v037.webp
-reference/daroo-landing-adventure-v035.webp
-reference/expedition-reference.webp
-reference/gabe-jinx-page-01-artwork-preview.webp
-reference/gabe-jinx-page-01-lettered-v026.webp
-reference/morocco-storyboard.webp
-public/sitemap.xml
 public/version.json
-public/index.html
-public/stories.html
-public/imprint.html
-public/disclaimers.html
-public/reader.html
 README.md
 DEPLOYED.md
 CHANGED_FILES.txt
 PROJECT_TREE.txt
+public/imprint.html
+public/reader.html
+public/disclaimers.html
+public/stories.html
+public/index.html

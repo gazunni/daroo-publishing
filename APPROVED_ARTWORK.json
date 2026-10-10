@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "description": "Checksums pin exact approved/deployed image bytes. Pending editorial confirmation does not imply approval; deliberate exceptions must be recorded.",
+  "source_baseline": "user-supplied DaRoo v0.4.9 repository archive (2026-10-10)",
+  "pages": [
+    {
+      "page": 1,
+      "path": "public/assets/images/gabe-jinx-book01-page-01.webp",
+      "sha256": "bfcb3d9a042869016cdc37623c4c675e4e2b17ba6bfc56d59493b5ec95a20013",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "pending_editorial_confirmation",
+      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
+    },
+    {
+      "page": 2,
+      "path": "public/assets/images/gabe-jinx-book01-page-02.webp",
+      "sha256": "17f9a3519987882c80d51a98c49b971c478ff3a73d1fa703047b43c6567b7822",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "pending_editorial_confirmation",
+      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
+    },
+    {
+      "page": 3,
+      "path": "public/assets/images/gabe-jinx-book01-page-03.webp",
+      "sha256": "36e13a466d3574b4b98890b4131b90190f2fd0a4d82ddf2172911e6b5b323d4d",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "pending_editorial_confirmation",
+      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
+    },
+    {
+      "page": 4,
+      "path": "public/assets/images/gabe-jinx-book01-page-04.webp",
+      "sha256": "de1becee4336363076244ef8fa2468ddf805a9c799707dca1cf5fa560ff7ce2e",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "pending_editorial_confirmation",
+      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
+    },
+    {
+      "page": 5,
+      "path": "public/assets/images/gabe-jinx-book01-page-05.webp",
+      "sha256": "91eed69bc56b5725e0e48c0d6e0d662b8578a490547c3de714cb256e27b8f5f0",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "pending_editorial_confirmation",
+      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
+    },
+    {
+      "page": 6,
+      "path": "public/assets/images/gabe-jinx-book01-page-06.webp",
+      "sha256": "2c6e111a5a2968d70242301e722a125407d0951d80103e5606acb2ab39f89a78",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "pending_editorial_confirmation",
+      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
+    },
+    {
+      "page": 7,
+      "path": "public/assets/images/gabe-jinx-book01-page-07.webp",
+      "sha256": "8d4fa2bca82a68c1a9ff32518db070f8937d1429b0d02de8d5d4708c08bda3e1",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "pending_editorial_confirmation",
+      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
+    },
+    {
+      "page": 8,
+      "path": "public/assets/images/gabe-jinx-book01-page-08.webp",
+      "sha256": "066a85989febaca0a95c04fb7b13480c6eeecca86c17f2b378a969b281791db3",
+      "width": 1024,
+      "height": 1335,
+      "format": "WEBP",
+      "approval_status": "pending_editorial_confirmation",
+      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed.",
+      "dimension_exception_reason": "Existing approved-deployment baseline Page 8 is 1024 x 1335. Keep unchanged pending editorial confirmation."
+    },
+    {
+      "page": 9,
+      "path": "public/assets/images/gabe-jinx-book01-page-09.webp",
+      "sha256": "a4e1adae48b6e24643171da4d796f64a1cd8b6f202b6f5ea571708b59b2e1112",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "pending_editorial_confirmation",
+      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
+    },
+    {
+      "page": 10,
+      "path": "public/assets/images/gabe-jinx-book01-page-10.webp",
+      "sha256": "5b5316c87d0ef10823fd230086c3cd3526c0ad29519c71815af6fe16883c153f",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "pending_editorial_confirmation",
+      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
+    },
+    {
+      "page": 11,
+      "path": "public/assets/images/gabe-jinx-book01-page-11.webp",
+      "sha256": "68019dd0fab72312531d4d0e3ef1546e895320516e7a38ef3614822799a9a666",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "approved",
+      "notes": "Jinx retrieves the dropped photograph; Gabe puts it away without inspecting the image."
+    },
+    {
+      "page": 12,
+      "path": "public/assets/images/gabe-jinx-book01-page-12.webp",
+      "sha256": "9d55bc8cf1d1ce9c8a724448233fec340bab0449706de96909a450fac216236c",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "approved",
+      "notes": "Gabe's hotel room; photograph marked El Ksar, April 17, 1926. Corrected wording is canonical."
+    },
+    {
+      "page": 13,
+      "path": "public/assets/images/gabe-jinx-book01-page-13.webp",
+      "sha256": "b92a4ddd635cfe63861816608bbabb879b199ec65314c8618ab4724e030b525c",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "approval_status": "approved",
+      "notes": "Jinx leaves independently; Chapter 1 — END."
+    }
+  ]
+}

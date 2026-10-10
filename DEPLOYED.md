@@ -54,3 +54,6 @@ Adds `public/assets/version.js`; updates `reader.js` (version-stamped manifest a
 ## v0.4.9 — package prepared, NOT confirmed deployed
 Moves nine unused images to `reference/` (not served), adds `package.py`, `MANUAL_DELETIONS.txt`, `reference/INDEX.md`, completes the sitemap, repairs README release history, removes `site.js`.
 **Manual deletions required on GitHub after deploying** (ZipToGit does not delete): see `MANUAL_DELETIONS.txt` (the nine old image paths under `public/assets/images/` and `public/assets/site.js`). Until deleted, the old images stay publicly reachable. `.env.example` unchanged.
+
+## v0.4.10 — packaged, NOT confirmed deployed
+Repository-root artwork checksum registry plus packager integrity checks. All existing artwork preserved byte-for-byte. Pages 1–10: editorial confirmation pending; Pages 11–13: approved source matches the repository assets (Page 12 uses corrected Gabe's-room version). Existing Page 8 1024×1335 exception documented. `.env.example` unchanged. No manual deletions added. No live device verification.

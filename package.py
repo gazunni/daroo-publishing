@@ -22,6 +22,8 @@ Release routine for whoever (or whatever) makes the next release:
   - run:  python package.py
 """
 import json
+import hashlib
+import struct
 import re
 import subprocess
 import sys
@@ -120,6 +122,85 @@ def check_manifest():
             err(f"manifest chapter {ch.get('number')} ends at page {ch['end_page']} but book has {n}")
 
 
+def webp_dimensions(raw):
+    """Inspect RIFF/WEBP header and decode VP8, VP8L, or VP8X dimensions without dependencies."""
+    if len(raw) < 20 or raw[:4] != b"RIFF" or raw[8:12] != b"WEBP":
+        raise ValueError("missing RIFF/WEBP header")
+    riff_size = struct.unpack_from("<I", raw, 4)[0]
+    if riff_size + 8 != len(raw):
+        raise ValueError("RIFF declared size does not match file size")
+    typ = raw[12:16]
+    length = struct.unpack_from("<I", raw, 16)[0]
+    chunk = raw[20:20+length]
+    if len(chunk) != length:
+        raise ValueError("truncated WEBP chunk")
+    if typ == b"VP8X":
+        if len(chunk) < 10:
+            raise ValueError("short VP8X header")
+        return (1 + int.from_bytes(chunk[4:7], "little"), 1 + int.from_bytes(chunk[7:10], "little"))
+    if typ == b"VP8 ":
+        if len(chunk) < 10 or chunk[3:6] != b"\x9d\x01\x2a":
+            raise ValueError("invalid VP8 frame header")
+        return (struct.unpack_from("<H", chunk, 6)[0] & 0x3fff,
+                struct.unpack_from("<H", chunk, 8)[0] & 0x3fff)
+    if typ == b"VP8L":
+        if len(chunk) < 5 or chunk[0] != 0x2f:
+            raise ValueError("invalid VP8L header")
+        bits = int.from_bytes(chunk[1:5], "little")
+        return ((bits & 0x3fff)+1, ((bits >> 14) & 0x3fff)+1)
+    raise ValueError(f"unsupported WEBP chunk {typ!r}")
+
+
+def check_artwork_registry():
+    rp = ROOT / "APPROVED_ARTWORK.json"
+    try:
+        data = json.loads(rp.read_text(encoding="utf-8"))
+        if data.get("schema_version") != 1:
+            raise ValueError("unsupported schema_version")
+        entries = data["pages"]
+        manifest = json.loads((ROOT / "public/books/gabe-and-jinx/book-01/manifest.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        err(f"APPROVED_ARTWORK.json missing/invalid: {exc}")
+        return
+    pages = manifest.get("pages", [])
+    if not isinstance(entries, list) or len(entries) != len(pages):
+        err(f"artwork registry must contain exactly {len(pages)} page entries")
+        return
+    for number, (entry, manifest_page) in enumerate(zip(entries, pages), 1):
+        if not isinstance(entry, dict):
+            err(f"registry page {number}: entry is not an object")
+            continue
+        expected_path = "public/" + manifest_page.get("image", "").lstrip("/")
+        actual_path = entry.get("path")
+        if entry.get("page") != number or actual_path != expected_path:
+            err(f"registry page {number}: page number or image path disagrees with manifest")
+            continue
+        if entry.get("approval_status") not in {"approved", "pending_editorial_confirmation"}:
+            err(f"registry page {number}: invalid approval status")
+        sha = entry.get("sha256")
+        if not isinstance(sha, str) or not re.fullmatch(r"[0-9a-f]{64}", sha):
+            err(f"registry page {number}: invalid SHA-256")
+            continue
+        if not isinstance(entry.get("width"), int) or not isinstance(entry.get("height"), int) or entry.get("format") != "WEBP":
+            err(f"registry page {number}: invalid dimensions or format")
+            continue
+        f = ROOT / actual_path
+        if not f.is_file():
+            err(f"registry page {number}: image missing: {actual_path}")
+            continue
+        raw = f.read_bytes()
+        if hashlib.sha256(raw).hexdigest() != sha:
+            err(f"registry page {number}: IMAGE CHANGED since registry lock: {actual_path}; obtain approval before updating fingerprint")
+        try:
+            size = webp_dimensions(raw)
+            if size != (entry["width"], entry["height"]):
+                err(f"registry page {number}: WEBP dimension mismatch, actual {size}, registry {(entry['width'],entry['height'])}")
+            if size != (1024,1536) and not entry.get("dimension_exception_reason"):
+                err(f"registry page {number}: nonstandard dimensions {size} require dimension_exception_reason")
+        except (ValueError, struct.error) as exc:
+            err(f"registry page {number}: malformed WEBP header: {exc}")
+
+
 def check_lists(files):
     changed = read_list("CHANGED_FILES.txt", skip_first=True)
     if changed is None:
@@ -200,6 +281,7 @@ def main():
         err("sync-version.py failed: " + (r.stderr.strip().splitlines() or ["?"])[-1])
     check_pages(ver)
     check_manifest()
+    check_artwork_registry()
     check_reference_isolation()
     files = repo_files()
     changed, deletions = check_lists(files)
@@ -226,7 +308,7 @@ def main():
     for z, n in ((changed_zip, len(changed)), (full_zip, len(files))):
         print(f"    {z.relative_to(ROOT)}  {n} files  {z.stat().st_size // 1024} KB")
     print("    checked: version/release, one label per page, version.js on every page, manifest images and alt text,")
-    print("             file lists, reference/ not served, wrapper directory, no deploy.info")
+    print("             SHA-256 artwork registry, WebP headers/dimensions, file lists, reference/ not served, wrapper directory, no deploy.info")
     if deletions:
         print("\nMANUAL DELETIONS on GitHub (ZipToGit never deletes):")
         for d in deletions:
