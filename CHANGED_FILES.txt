@@ -1,15 +1,16 @@
-v047 changed files (relative to repository root):
-CHANGED_FILES.txt
-CHAPTER01_v047_RELEASE_NOTES.txt
-PROJECT_TREE.txt
+DaRoo v047 corrected artwork release
+public/assets/images/gabe-jinx-book01-page-11.webp
 public/assets/images/gabe-jinx-book01-page-12.webp
 public/assets/images/gabe-jinx-book01-page-13.webp
 public/assets/reader.js
 public/assets/style.css
 public/books/gabe-and-jinx/book-01/manifest.json
+public/version.json
+public/reader.html
+public/index.html
+public/stories.html
 public/disclaimers.html
 public/imprint.html
-public/index.html
-public/reader.html
-public/stories.html
-public/version.json
+CHANGED_FILES.txt
+CHAPTER01_v047_RELEASE_NOTES.txt
+PROJECT_TREE.txt
