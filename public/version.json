@@ -1,7 +1,7 @@
 {
   "app": "DaRoo",
-  "version": "0.4.8",
-  "release": "v048",
-  "previous_version": "0.4.7",
-  "notes": "Version label driven by version.json (self-healing); reader page images and manifest cache-busted by version"
+  "version": "0.4.9",
+  "release": "v049",
+  "previous_version": "0.4.8",
+  "notes": "Reference images moved out of public/ into reference/; package.py release checker and packager; sitemap completed; release docs repaired"
 }

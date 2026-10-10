@@ -50,3 +50,7 @@ The GitHub-connected Cloudflare project is a Worker named `daroo-publishing`. `w
 
 ## v0.4.8 — package prepared, NOT confirmed deployed
 Adds `public/assets/version.js`; updates `reader.js` (version-stamped manifest and image URLs); version bump to 0.4.8 across all five HTML pages and `version.json`. No artwork, manifest or style changes. No manual deletions. `.env.example` unchanged. Needs live check: label shows v0.4.8 on all pages including the reader, and reader pages load after a hard refresh.
+
+## v0.4.9 — package prepared, NOT confirmed deployed
+Moves nine unused images to `reference/` (not served), adds `package.py`, `MANUAL_DELETIONS.txt`, `reference/INDEX.md`, completes the sitemap, repairs README release history, removes `site.js`.
+**Manual deletions required on GitHub after deploying** (ZipToGit does not delete): see `MANUAL_DELETIONS.txt` (the nine old image paths under `public/assets/images/` and `public/assets/site.js`). Until deleted, the old images stay publicly reachable. `.env.example` unchanged.

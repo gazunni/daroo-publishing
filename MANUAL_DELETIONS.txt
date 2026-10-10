@@ -1,0 +1,14 @@
+# Paths to delete BY HAND on GitHub after deploying this release (ZipToGit never deletes).
+# One repo path per line. package.py refuses to build if a listed path still exists in this repo,
+# and prints this list at the end of every build so it is not forgotten.
+# v0.4.9: the nine images now live in reference/ (not served); site.js was never loaded.
+public/assets/images/chamber-storyboard.webp
+public/assets/images/daroo-emblem.webp
+public/assets/images/daroo-hero-landscape-v037.webp
+public/assets/images/daroo-hero-portrait-v037.webp
+public/assets/images/daroo-landing-adventure-v035.webp
+public/assets/images/expedition-reference.webp
+public/assets/images/gabe-jinx-page-01-artwork-preview.webp
+public/assets/images/gabe-jinx-page-01-lettered-v026.webp
+public/assets/images/morocco-storyboard.webp
+public/assets/site.js

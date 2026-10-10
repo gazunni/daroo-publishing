@@ -130,3 +130,19 @@ Removed background-style cover cropping; artwork is a normal proportional image.
 | Date | Version | Change | Status |
 | --- | --- | --- | --- |
 | 2026-10-10 | v0.4.8 (ZipToGit v048) | Version label driven by version.json; reader manifest and page images cache-busted | Packaged; live deployment not verified |
+
+## v0.4.9 — 2026-10-10 — Reference folder, packager, housekeeping
+- **`reference/` folder (repo root, not served).** Nine development images moved out of `public/assets/images/`; they no longer ship to readers. `reference/INDEX.md` says what each is. Cloudflare serves only `public/`.
+- **`package.py` packager.** Run `python package.py` from the repo root. Never zip by hand. It checks version/release consistency, one version label per page, `version.js` on every page, manifest images and alt text, that every file in `CHANGED_FILES.txt` exists and the required files are listed, that `reference/` is not referenced by the site, then regenerates `PROJECT_TREE.txt`, builds the CHANGED and FULL zips under the single `daroo-publishing-main/` wrapper (no `deploy.info`), re-opens both zips to verify them, and prints the manual deletions. Nothing is written if a check fails. It does not verify the live site.
+- **`MANUAL_DELETIONS.txt`.** Paths to delete by hand on GitHub (ZipToGit never deletes). `package.py` refuses to build if a listed path still exists in the repo.
+- Removed `public/assets/site.js` (never loaded; targeted a missing element). `public/holder` left in place: origin unknown.
+- Sitemap now lists Main, Stories, Reader, Imprint and Disclaimers.
+- `public/books/.../page-01-script.txt` is still publicly served; deliberately unchanged pending the owner's decision.
+- Live deployment and iPad rendering not verified.
+
+### Release history (repaired in v0.4.9)
+| Date | Version | Change | Status |
+| --- | --- | --- | --- |
+| 2026-10-09 | v0.4.3 to v0.4.6 | Not documented in this repository (no release notes survive) | Unknown |
+| 2026-10-10 | v0.4.7 (ZipToGit v047) | Chapter 1 pages 11 to 13 approved and added; chapter-aware reader folios; muted version label lint fix (from `CHAPTER01_v047_RELEASE_NOTES.txt`) | Previous package |
+| 2026-10-10 | v0.4.9 (ZipToGit v049) | Reference folder, package.py, sitemap, docs repair | Packaged; live deployment not verified |
