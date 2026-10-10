@@ -1,13 +1,9 @@
-DaRoo v0410 approved artwork registry and image integrity packaging checks
-APPROVED_ARTWORK.json
-package.py
-public/version.json
-README.md
-DEPLOYED.md
-CHANGED_FILES.txt
-PROJECT_TREE.txt
-public/imprint.html
-public/reader.html
-public/disclaimers.html
-public/stories.html
-public/index.html
+Changed files in this ZipToGit package:
+- public/assets/images/gabe-jinx-book01-page-04.webp
+- public/assets/images/gabe-jinx-book01-page-05.webp
+- APPROVED_ARTWORK.json
+
+Notes:
+- Page 4: removed top legacy page numbering only.
+- Page 5: removed top legacy page numbering and restored clean production margin treatment.
+- All files are wrapped under daroo-publishing-main/ for ZipToGit deployment.

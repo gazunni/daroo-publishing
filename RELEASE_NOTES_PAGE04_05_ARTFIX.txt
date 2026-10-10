@@ -1,0 +1,9 @@
+DaRoo Chapter 1 art fix package
+Scope: corrected Page 4 and Page 5 only.
+
+Included:
+- Updated WEBP production asset for page 4
+- Updated WEBP production asset for page 5
+- Updated APPROVED_ARTWORK.json checksum registry entries for pages 4 and 5
+
+No other story pages or site files are included in this archive.

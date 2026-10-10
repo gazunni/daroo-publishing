@@ -40,18 +40,18 @@
       "width": 1024,
       "height": 1536,
       "format": "WEBP",
-      "approval_status": "pending_editorial_confirmation",
-      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
+      "approval_status": "approved",
+      "notes": "Approved correction: removed legacy top page numbering only; page content otherwise preserved."
     },
     {
       "page": 5,
       "path": "public/assets/images/gabe-jinx-book01-page-05.webp",
-      "sha256": "91eed69bc56b5725e0e48c0d6e0d662b8578a490547c3de714cb256e27b8f5f0",
+      "sha256": "bafefd954800daee07f4f02d68ce8d6b5186eb8319fb588ca092e71cfee6c7e4",
       "width": 1024,
       "height": 1536,
       "format": "WEBP",
-      "approval_status": "pending_editorial_confirmation",
-      "notes": "Preserved deployed baseline artwork; editorial approval not independently reconfirmed."
+      "approval_status": "approved",
+      "notes": "Approved correction: removed legacy top page numbering and restored clean production margins."
     },
     {
       "page": 6,
@@ -132,7 +132,7 @@
       "height": 1536,
       "format": "WEBP",
       "approval_status": "approved",
-      "notes": "Jinx leaves independently; Chapter 1 — END."
+      "notes": "Jinx leaves independently; Chapter 1 \u2014 END."
     }
   ]
 }
