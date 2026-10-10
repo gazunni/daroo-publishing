@@ -117,3 +117,16 @@ Removed background-style cover cropping; artwork is a normal proportional image.
 - Synchronized visible version and accessible version labels across all five site pages.
 - Updated documentation and preserved existing images. Some images contain baked-in inconsistent page labels; correcting those requires a separate art-master revision and has not been represented as completed.
 - Changes prepared on a GitHub review branch; production deployment and live device rendering require separate verification.
+
+
+## v0.4.8 — 2026-10-10 — Version label and image cache hardening
+- **Version label is now driven by `public/version.json`.** New `public/assets/version.js` (loaded on all five pages) reads `/version.json` and updates the bottom-right label. If a page ever ships without the label, the script creates it inside the bottom navigation. If `version.json` cannot be fetched, the static label already in the page remains.
+- **Reader cache-busting.** `reader.js` requests the book manifest and every page image with `?v=<version>` so corrected art is not served from a stale browser cache. Trade-off: every release makes returning readers re-download the page images once (about 8 MB).
+- `sync-version.py` is still valid and keeps the static fallback label in step with `version.json`; it is now a fallback, not the only mechanism.
+- Not covered: hero/story/logo images and `reader.js`/`style.css` themselves are not version-stamped. After the first deploy of v0.4.8, one hard refresh may be needed on devices holding an old `reader.js`.
+- Verified by simulated-browser tests (label on all five pages, label follows `version.json`, label recreated when missing, fetch-failure fallback, reader manifest/image URLs stamped, reader opens when `version.json` fails). **Live deployment and iPad rendering not verified.**
+- Housekeeping gap noted, not fixed here: the release history above has no entries for v0.4.3 to v0.4.7.
+
+| Date | Version | Change | Status |
+| --- | --- | --- | --- |
+| 2026-10-10 | v0.4.8 (ZipToGit v048) | Version label driven by version.json; reader manifest and page images cache-busted | Packaged; live deployment not verified |

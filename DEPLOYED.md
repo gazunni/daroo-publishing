@@ -47,3 +47,6 @@ Reader folios placed outside the artwork; dynamic reader note; manifest accessib
 
 ## Worker preview configuration
 The GitHub-connected Cloudflare project is a Worker named `daroo-publishing`. `wrangler.jsonc` configures static assets from `./public` and an empty `previews` block for `npx wrangler preview`. Cloudflare preview/deployment must be verified; production deploy command should be `npx wrangler deploy`.
+
+## v0.4.8 — package prepared, NOT confirmed deployed
+Adds `public/assets/version.js`; updates `reader.js` (version-stamped manifest and image URLs); version bump to 0.4.8 across all five HTML pages and `version.json`. No artwork, manifest or style changes. No manual deletions. `.env.example` unchanged. Needs live check: label shows v0.4.8 on all pages including the reader, and reader pages load after a hard refresh.

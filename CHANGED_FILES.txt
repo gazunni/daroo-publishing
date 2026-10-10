@@ -1,16 +1,13 @@
-DaRoo v047 corrected artwork release
-public/assets/images/gabe-jinx-book01-page-11.webp
-public/assets/images/gabe-jinx-book01-page-12.webp
-public/assets/images/gabe-jinx-book01-page-13.webp
+DaRoo v048 version label and cache-busting release
+public/assets/version.js
 public/assets/reader.js
-public/assets/style.css
-public/books/gabe-and-jinx/book-01/manifest.json
 public/version.json
-public/reader.html
 public/index.html
 public/stories.html
-public/disclaimers.html
 public/imprint.html
+public/disclaimers.html
+public/reader.html
+README.md
+DEPLOYED.md
 CHANGED_FILES.txt
-CHAPTER01_v047_RELEASE_NOTES.txt
 PROJECT_TREE.txt

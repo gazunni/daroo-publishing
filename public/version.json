@@ -1,7 +1,7 @@
 {
   "app": "DaRoo",
-  "version": "0.4.7",
-  "release": "v047",
-  "previous_version": "0.4.2",
-  "notes": "Chapter 1 approved pages 11-13; chapter-aware folios; preserved approved pages 1-10"
+  "version": "0.4.8",
+  "release": "v048",
+  "previous_version": "0.4.7",
+  "notes": "Version label driven by version.json (self-healing); reader page images and manifest cache-busted by version"
 }

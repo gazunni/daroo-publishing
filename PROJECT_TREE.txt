@@ -44,6 +44,7 @@ public/assets/images/morocco-storyboard.webp
 public/assets/reader.js
 public/assets/site.js
 public/assets/style.css
+public/assets/version.js
 public/books/gabe-and-jinx/book-01/manifest.json
 public/books/gabe-and-jinx/book-01/page-01-script.txt
 public/disclaimers.html
