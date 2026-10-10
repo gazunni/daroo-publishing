@@ -76,8 +76,8 @@ body{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
 
 /* v0.3.4 — subtle fixed navigation version identifier */
 .bottom-nav{position:fixed}
-.bottom-nav .app-version{position:absolute;right:max(9px,env(safe-area-inset-right,0px));bottom:calc(2px + env(safe-area-inset-bottom,0px));font:500 9px/1.1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.025em;color:#758187;opacity:.55;pointer-events:none;user-select:none;white-space:nowrap;z-index:1}
-@media(max-width:600px){.bottom-nav .app-version{font-size:8px;right:max(5px,env(safe-area-inset-right,0px));opacity:.48}}
+.bottom-nav .app-version{position:absolute;right:max(9px,env(safe-area-inset-right,0px));bottom:calc(2px + env(safe-area-inset-bottom,0px));font:500 9px/1.1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.025em;color:#8d999d;opacity:.72;pointer-events:none;user-select:none;white-space:nowrap;z-index:1}
+@media(max-width:600px){.bottom-nav .app-version{font-size:8px;right:max(5px,env(safe-area-inset-right,0px));opacity:.68}}
 
 /* v0.3.5: compact landing page and clean story illustration (real site controls remain HTML). */
 .page-main .hero{min-height:0;max-width:1800px;grid-template-columns:minmax(0,48%) minmax(0,52%);align-items:stretch}

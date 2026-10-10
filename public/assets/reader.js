@@ -10,7 +10,7 @@ function clampPan(){const frame=stage.getBoundingClientRect();panX=clamp(panX,-f
 function applyZoom(){clampPan();const sheet=$('page-sheet');if(sheet)sheet.style.transform=`translate(${panX}px,${panY}px) scale(${scale})`;stage.classList.toggle('is-zoomed',zoomed());$('zoomreset').textContent=Math.round(scale*100)+'%';$('zoomout').disabled=scale<=1.001;$('zoomin').disabled=scale>=3.999}
 function resetZoom(){scale=1;panX=panY=0;applyZoom()}
 function setZoom(next){const was=scale;scale=clamp(next,1,4);if(scale===1){panX=panY=0}else if(was>1){panX*=scale/was;panY*=scale/was}applyZoom()}
-function makePage(p){const el=document.createElement('article');el.className='reader-page';el.setAttribute('aria-label','Book page '+p.number);if(p.image){const img=document.createElement('img');img.src=p.image;img.alt=p.alt||p.title||'Development artwork';img.draggable=false;el.append(img);const folio=document.createElement('div');folio.className='reader-folio';folio.textContent='PAGE '+p.number+' OF '+book.pages.length;folio.setAttribute('aria-hidden','true');el.append(folio);if(p.caption){const cap=document.createElement('div');cap.className='page-caption';cap.textContent=p.caption;el.append(cap)}}else{el.classList.add('placeholder');const h=document.createElement('h2');h.textContent=p.title||'Preview';const d=document.createElement('p');d.textContent=p.description||'';el.append(h,d)}return el}
+function makePage(p){const el=document.createElement('article');el.className='reader-page';el.setAttribute('aria-label','Book page '+p.number);if(p.image){const img=document.createElement('img');img.src=p.image;img.alt=p.alt||p.title||'Development artwork';img.draggable=false;el.append(img);const folio=document.createElement('div');folio.className='reader-folio';folio.textContent='CHAPTER '+(p.chapter||1)+' · PAGE '+p.number+' OF '+book.pages.length;folio.setAttribute('aria-hidden','true');el.append(folio);if(p.caption){const cap=document.createElement('div');cap.className='page-caption';cap.textContent=p.caption;el.append(cap)}}else{el.classList.add('placeholder');const h=document.createElement('h2');h.textContent=p.title||'Preview';const d=document.createElement('p');d.textContent=p.description||'';el.append(h,d)}return el}
 const imageWarmCache=new Map();
 function warmAdjacentPages(){
   if(!book)return;
@@ -22,7 +22,7 @@ function warmAdjacentPages(){
     if(!src)continue;
     wanted.add(src);
     if(!imageWarmCache.has(src)){
-      const image=new Image();
+      const image=document.createElement('img');
       image.decoding='async';
       image.src=src;
       imageWarmCache.set(src,image);

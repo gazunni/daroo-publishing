@@ -1,0 +1,11 @@
+DaRoo Chapter 1 — v0.4.7 (v047)
+Status: 13 pages assembled; full chapter review still required.
+Source: user-provided reverted v045 ZIP (daroo-publishing-main(1).zip).
+Original pages 01–11 preserved byte-for-byte, no substitutions or reconversion.
+Page 12: newly approved correction “Back at Gabe’s hotel room”.
+Page 13: approved Jinx departure and CHAPTER 1 END.
+Reader footer: CHAPTER 1 · PAGE N OF 13.
+Muted app version badge: v0.4.7.
+No .env.example changes.
+ZipToGit archive layout matches reverted source: daroo-publishing-main/...
+Deploy changed-files-only package over the reverted v045 deployment.

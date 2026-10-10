@@ -1,78 +1,112 @@
 {
   "id": "gabe-and-jinx-01",
   "series": "Gabe & Jinx",
-  "title": "Book One \u2014 The Eye of the Desert",
-  "subtitle": "Eleven independent portrait comic pages \u2014 development review",
+  "title": "Book One — The Eye of the Desert",
+  "subtitle": "Chapter 1 — thirteen independent portrait comic pages — pending full-chapter review",
   "status": "review",
-  "edition": "eleven-independent-portrait-pages-v045",
+  "edition": "chapter-one-thirteen-pages-v047",
   "pages": [
     {
       "number": 1,
       "title": "Page 1",
       "image": "/assets/images/gabe-jinx-book01-page-01.webp",
-      "alt": "Gabe and Jinx Book One, portrait comic page 1 of 11"
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 1 of 13",
+      "chapter": 1
     },
     {
       "number": 2,
       "title": "Page 2",
       "image": "/assets/images/gabe-jinx-book01-page-02.webp",
-      "alt": "Gabe and Jinx Book One, portrait comic page 2 of 11"
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 2 of 13",
+      "chapter": 1
     },
     {
       "number": 3,
       "title": "Page 3",
       "image": "/assets/images/gabe-jinx-book01-page-03.webp",
-      "alt": "Gabe and Jinx Book One, portrait comic page 3 of 11"
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 3 of 13",
+      "chapter": 1
     },
     {
       "number": 4,
       "title": "Page 4",
       "image": "/assets/images/gabe-jinx-book01-page-04.webp",
-      "alt": "Gabe and Jinx Book One, portrait comic page 4 of 11"
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 4 of 13",
+      "chapter": 1
     },
     {
       "number": 5,
       "title": "Page 5",
       "image": "/assets/images/gabe-jinx-book01-page-05.webp",
-      "alt": "Gabe and Jinx Book One, portrait comic page 5 of 11"
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 5 of 13",
+      "chapter": 1
     },
     {
       "number": 6,
       "title": "Page 6",
       "image": "/assets/images/gabe-jinx-book01-page-06.webp",
-      "alt": "Gabe and Jinx Book One, portrait comic page 6 of 11"
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 6 of 13",
+      "chapter": 1
     },
     {
       "number": 7,
       "title": "Page 7",
       "image": "/assets/images/gabe-jinx-book01-page-07.webp",
-      "alt": "Gabe and Jinx Book One, portrait comic page 7 of 11"
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 7 of 13",
+      "chapter": 1
     },
     {
       "number": 8,
       "title": "Page 8",
       "image": "/assets/images/gabe-jinx-book01-page-08.webp",
-      "alt": "Gabe and Jinx Book One, portrait comic page 8 of 11"
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 8 of 13",
+      "chapter": 1
     },
     {
       "number": 9,
       "title": "Page 9",
       "image": "/assets/images/gabe-jinx-book01-page-09.webp",
-      "alt": "Gabe and Jinx Book One, portrait comic page 9 of 11"
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 9 of 13",
+      "chapter": 1
     },
     {
       "number": 10,
       "title": "Page 10",
       "image": "/assets/images/gabe-jinx-book01-page-10.webp",
-      "alt": "Gabe and Jinx Book One, portrait comic page 10 of 11"
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 10 of 13",
+      "chapter": 1
     },
     {
       "number": 11,
       "title": "Page 11",
       "image": "/assets/images/gabe-jinx-book01-page-11.webp",
-      "alt": "Gabe and Jinx Book One, portrait comic page 11 of 11"
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 11 of 13",
+      "chapter": 1
+    },
+    {
+      "number": 12,
+      "chapter": 1,
+      "title": "Page 12",
+      "image": "/assets/images/gabe-jinx-book01-page-12.webp",
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 12 of 13"
+    },
+    {
+      "number": 13,
+      "chapter": 1,
+      "title": "Page 13",
+      "image": "/assets/images/gabe-jinx-book01-page-13.webp",
+      "alt": "Gabe and Jinx Book One, chapter 1, portrait comic page 13 of 13"
     }
   ],
   "reader_layout": "single_page_portrait",
-  "reader_zoom_max": 4
+  "reader_zoom_max": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chapter 1",
+      "start_page": 1,
+      "end_page": 13,
+      "status": "complete_pending_review"
+    }
+  ]
 }

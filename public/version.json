@@ -1,7 +1,7 @@
 {
   "app": "DaRoo",
-  "version": "0.4.2",
+  "version": "0.4.7",
   "release": "v042",
-  "previous_version": "0.4.1",
-  "notes": "Maintenance: consistent reader folios, dynamic page count, version and documentation synchronization"
+  "previous_version": "0.4.2",
+  "notes": "Chapter 1 pages 12\u201313, chapter-aware reader folios, muted version label; original pages 1\u201311 preserved"
 }
